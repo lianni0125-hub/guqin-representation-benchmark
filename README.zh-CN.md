@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="古琴表征研究框架标志" width="320">
+  <img src="assets/logo.png" alt="古琴表征研究框架标志" width="250">
 </p>
 
 <p align="center">
