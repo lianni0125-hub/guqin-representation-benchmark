@@ -2,7 +2,7 @@
   "release_candidate": "0.1.0-rc.1",
   "generated_at_date": "2026-10-16",
   "release_identity": "builder-based framework; no upstream row-level payload",
-  "file_count_excluding_manifest": 107,
+  "file_count_excluding_manifest": 108,
   "files": [
     {
       "path": ".gitignore",
@@ -361,8 +361,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 4974,
-      "sha256": "df3ef7f621f09688dd4870d2fdeaf0898eb5cb0190a74b8bc02a6bb8d815216e"
+      "bytes": 5030,
+      "sha256": "ac83a28a252bc79b33c459103b40a81fc7a2644565ac7e3d270ad8af72b1e339"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 4859,
+      "sha256": "ee2e67aabaec71b60cc350e47652f4e33e3c0c511c2c190362577a52f5db9c46"
     },
     {
       "path": "REPRODUCIBILITY.md",

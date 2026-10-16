@@ -1,5 +1,7 @@
 # Guqin Representation Framework
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 [GitHub repository](https://github.com/lianni0125-hub/guqin-representation-benchmark)
 
 A provenance-preserving framework for building and evaluating interpretable representations of guqin notation and action sequences.
