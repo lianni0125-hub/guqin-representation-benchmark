@@ -2,7 +2,7 @@
   "release_candidate": "0.1.0-rc.1",
   "generated_at_date": "2026-10-16",
   "release_identity": "builder-based framework; no upstream row-level payload",
-  "file_count_excluding_manifest": 109,
+  "file_count_excluding_manifest": 110,
   "files": [
     {
       "path": ".gitignore",
@@ -158,6 +158,11 @@
       "path": "aggregates/T2_R5_summary.json",
       "bytes": 8894,
       "sha256": "66cd02fe3e0b53bbfeeaaf2d0f16f123f6e5fc56b09fc6dfed9861b56ac9dcde"
+    },
+    {
+      "path": "assets/logo.png",
+      "bytes": 1634252,
+      "sha256": "e31d7e7062bdf86ccacb80ee294ee9ea1e634ad0b3063abc7485683145bf62f3"
     },
     {
       "path": "CHANGELOG.md",
@@ -361,13 +366,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 5262,
-      "sha256": "ff32ca96b7d01fae5032f195d5914dee649caefc31e1b3628b3d9dde36a5c88a"
+      "bytes": 5419,
+      "sha256": "2689ccafdec305a584e9ff8baaf978441cf5c37b9984370af386c08874436306"
     },
     {
       "path": "README.zh-CN.md",
-      "bytes": 5275,
-      "sha256": "2c53e97334c9dfc2e84dd29c4e652b0d70899081049fcaa50f293cf9610ca95e"
+      "bytes": 5427,
+      "sha256": "036454a5c90b6ad73673a894aad2b15fc4e89a2b292ebae409ab99e7ffd58fdd"
     },
     {
       "path": "REPRODUCIBILITY.md",

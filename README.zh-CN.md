@@ -1,6 +1,12 @@
-# 古琴表征研究框架
+<p align="center">
+  <img src="assets/logo.png" alt="古琴表征研究框架标志" width="420">
+</p>
 
-[English](README.md) | [简体中文](README.zh-CN.md)
+<p align="center">
+  <a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a>
+</p>
+
+# 古琴表征研究框架
 
 这是一个保留数据来源信息、用于构建和评估古琴记谱—演奏动作可解释表征的研究框架。
 

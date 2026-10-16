@@ -1,6 +1,12 @@
-# Guqin Representation Framework
+<p align="center">
+  <img src="assets/logo.png" alt="Guqin Representation Framework logo" width="420">
+</p>
 
-[English](README.md) | [简体中文](README.zh-CN.md)
+<p align="center">
+  <a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a>
+</p>
+
+# Guqin Representation Framework
 
 A provenance-preserving framework for building and evaluating interpretable representations of guqin notation and action sequences.
 
