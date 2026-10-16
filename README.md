@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Guqin Representation Framework logo" width="420">
+  <img src="assets/logo.png" alt="Guqin Representation Framework logo" width="320">
 </p>
 
 <p align="center">

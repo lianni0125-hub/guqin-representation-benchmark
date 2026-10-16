@@ -367,12 +367,12 @@
     {
       "path": "README.md",
       "bytes": 5419,
-      "sha256": "2689ccafdec305a584e9ff8baaf978441cf5c37b9984370af386c08874436306"
+      "sha256": "68e6d13189208619f3907eb20dc2eaa14b85ef99e6f981a4755fdcfe16e563b9"
     },
     {
       "path": "README.zh-CN.md",
       "bytes": 5427,
-      "sha256": "036454a5c90b6ad73673a894aad2b15fc4e89a2b292ebae409ab99e7ffd58fdd"
+      "sha256": "6038b0a663f73d48c91f73388e9e4a1d67f6a8846e0e8c39b5def0660d2485ce"
     },
     {
       "path": "REPRODUCIBILITY.md",
