@@ -1,0 +1,17 @@
+.venv/
+.venv-*/
+node_modules/
+config/local_paths.json
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+data/raw/**
+data/interim/**
+external/**
+results/**/*predictions.jsonl
+results/**/*worst*events.jsonl
+tmp/**
+.env
+.env.*
+

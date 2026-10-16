@@ -1,0 +1,589 @@
+{
+  "report_version": "gq39-analysis-table-audit-v1.1",
+  "outcome_inspection_status": "R5/R0 outcomes inspected before schema v1.1 added right_finger_raw for preregistered historical-direction features",
+  "primary": {
+    "total_rows": 2303,
+    "eligible_rows": 2303,
+    "excluded_rows": 0,
+    "class_counts": {
+      "continuous_oscillation": 109,
+      "down_return": 53,
+      "downward_motion": 167,
+      "stationary_press": 1484,
+      "up_return": 54,
+      "upward_motion": 436
+    },
+    "piece_class_counts": {
+      "ciou": {
+        "continuous_oscillation": 13,
+        "down_return": 16,
+        "downward_motion": 1,
+        "stationary_press": 79,
+        "up_return": 2,
+        "upward_motion": 45
+      },
+      "feng": {
+        "continuous_oscillation": 25,
+        "down_return": 5,
+        "downward_motion": 20,
+        "stationary_press": 84,
+        "up_return": 1,
+        "upward_motion": 58
+      },
+      "gu": {
+        "continuous_oscillation": 9,
+        "downward_motion": 9,
+        "stationary_press": 40,
+        "up_return": 2,
+        "upward_motion": 10
+      },
+      "guan": {
+        "continuous_oscillation": 7,
+        "down_return": 3,
+        "downward_motion": 18,
+        "stationary_press": 109,
+        "up_return": 5,
+        "upward_motion": 32
+      },
+      "jiou": {
+        "continuous_oscillation": 2,
+        "down_return": 4,
+        "stationary_press": 295,
+        "up_return": 2,
+        "upward_motion": 31
+      },
+      "liang": {
+        "continuous_oscillation": 12,
+        "down_return": 14,
+        "downward_motion": 24,
+        "stationary_press": 158,
+        "up_return": 4,
+        "upward_motion": 61
+      },
+      "siang": {
+        "continuous_oscillation": 1,
+        "downward_motion": 16,
+        "stationary_press": 168,
+        "up_return": 2,
+        "upward_motion": 35
+      },
+      "yang": {
+        "continuous_oscillation": 3,
+        "downward_motion": 19,
+        "stationary_press": 172,
+        "up_return": 5,
+        "upward_motion": 64
+      },
+      "yi": {
+        "continuous_oscillation": 16,
+        "down_return": 11,
+        "downward_motion": 50,
+        "stationary_press": 253,
+        "up_return": 16,
+        "upward_motion": 73
+      },
+      "yu": {
+        "continuous_oscillation": 21,
+        "downward_motion": 10,
+        "stationary_press": 126,
+        "up_return": 15,
+        "upward_motion": 27
+      }
+    },
+    "outer_fold_class_coverage": [
+      {
+        "heldout_piece_group": "ciou",
+        "train_rows": 2147,
+        "test_rows": 156,
+        "train_missing_classes": [],
+        "test_missing_classes": [],
+        "train_class_counts": {
+          "continuous_oscillation": 96,
+          "down_return": 37,
+          "downward_motion": 166,
+          "stationary_press": 1405,
+          "up_return": 52,
+          "upward_motion": 391
+        },
+        "test_class_counts": {
+          "continuous_oscillation": 13,
+          "down_return": 16,
+          "downward_motion": 1,
+          "stationary_press": 79,
+          "up_return": 2,
+          "upward_motion": 45
+        }
+      },
+      {
+        "heldout_piece_group": "feng",
+        "train_rows": 2110,
+        "test_rows": 193,
+        "train_missing_classes": [],
+        "test_missing_classes": [],
+        "train_class_counts": {
+          "continuous_oscillation": 84,
+          "down_return": 48,
+          "downward_motion": 147,
+          "stationary_press": 1400,
+          "up_return": 53,
+          "upward_motion": 378
+        },
+        "test_class_counts": {
+          "continuous_oscillation": 25,
+          "down_return": 5,
+          "downward_motion": 20,
+          "stationary_press": 84,
+          "up_return": 1,
+          "upward_motion": 58
+        }
+      },
+      {
+        "heldout_piece_group": "gu",
+        "train_rows": 2233,
+        "test_rows": 70,
+        "train_missing_classes": [],
+        "test_missing_classes": [
+          "down_return"
+        ],
+        "train_class_counts": {
+          "continuous_oscillation": 100,
+          "down_return": 53,
+          "downward_motion": 158,
+          "stationary_press": 1444,
+          "up_return": 52,
+          "upward_motion": 426
+        },
+        "test_class_counts": {
+          "continuous_oscillation": 9,
+          "downward_motion": 9,
+          "stationary_press": 40,
+          "up_return": 2,
+          "upward_motion": 10
+        }
+      },
+      {
+        "heldout_piece_group": "guan",
+        "train_rows": 2129,
+        "test_rows": 174,
+        "train_missing_classes": [],
+        "test_missing_classes": [],
+        "train_class_counts": {
+          "continuous_oscillation": 102,
+          "down_return": 50,
+          "downward_motion": 149,
+          "stationary_press": 1375,
+          "up_return": 49,
+          "upward_motion": 404
+        },
+        "test_class_counts": {
+          "continuous_oscillation": 7,
+          "down_return": 3,
+          "downward_motion": 18,
+          "stationary_press": 109,
+          "up_return": 5,
+          "upward_motion": 32
+        }
+      },
+      {
+        "heldout_piece_group": "jiou",
+        "train_rows": 1969,
+        "test_rows": 334,
+        "train_missing_classes": [],
+        "test_missing_classes": [
+          "downward_motion"
+        ],
+        "train_class_counts": {
+          "continuous_oscillation": 107,
+          "down_return": 49,
+          "downward_motion": 167,
+          "stationary_press": 1189,
+          "up_return": 52,
+          "upward_motion": 405
+        },
+        "test_class_counts": {
+          "continuous_oscillation": 2,
+          "down_return": 4,
+          "stationary_press": 295,
+          "up_return": 2,
+          "upward_motion": 31
+        }
+      },
+      {
+        "heldout_piece_group": "liang",
+        "train_rows": 2030,
+        "test_rows": 273,
+        "train_missing_classes": [],
+        "test_missing_classes": [],
+        "train_class_counts": {
+          "continuous_oscillation": 97,
+          "down_return": 39,
+          "downward_motion": 143,
+          "stationary_press": 1326,
+          "up_return": 50,
+          "upward_motion": 375
+        },
+        "test_class_counts": {
+          "continuous_oscillation": 12,
+          "down_return": 14,
+          "downward_motion": 24,
+          "stationary_press": 158,
+          "up_return": 4,
+          "upward_motion": 61
+        }
+      },
+      {
+        "heldout_piece_group": "siang",
+        "train_rows": 2081,
+        "test_rows": 222,
+        "train_missing_classes": [],
+        "test_missing_classes": [
+          "down_return"
+        ],
+        "train_class_counts": {
+          "continuous_oscillation": 108,
+          "down_return": 53,
+          "downward_motion": 151,
+          "stationary_press": 1316,
+          "up_return": 52,
+          "upward_motion": 401
+        },
+        "test_class_counts": {
+          "continuous_oscillation": 1,
+          "downward_motion": 16,
+          "stationary_press": 168,
+          "up_return": 2,
+          "upward_motion": 35
+        }
+      },
+      {
+        "heldout_piece_group": "yang",
+        "train_rows": 2040,
+        "test_rows": 263,
+        "train_missing_classes": [],
+        "test_missing_classes": [
+          "down_return"
+        ],
+        "train_class_counts": {
+          "continuous_oscillation": 106,
+          "down_return": 53,
+          "downward_motion": 148,
+          "stationary_press": 1312,
+          "up_return": 49,
+          "upward_motion": 372
+        },
+        "test_class_counts": {
+          "continuous_oscillation": 3,
+          "downward_motion": 19,
+          "stationary_press": 172,
+          "up_return": 5,
+          "upward_motion": 64
+        }
+      },
+      {
+        "heldout_piece_group": "yi",
+        "train_rows": 1884,
+        "test_rows": 419,
+        "train_missing_classes": [],
+        "test_missing_classes": [],
+        "train_class_counts": {
+          "continuous_oscillation": 93,
+          "down_return": 42,
+          "downward_motion": 117,
+          "stationary_press": 1231,
+          "up_return": 38,
+          "upward_motion": 363
+        },
+        "test_class_counts": {
+          "continuous_oscillation": 16,
+          "down_return": 11,
+          "downward_motion": 50,
+          "stationary_press": 253,
+          "up_return": 16,
+          "upward_motion": 73
+        }
+      },
+      {
+        "heldout_piece_group": "yu",
+        "train_rows": 2104,
+        "test_rows": 199,
+        "train_missing_classes": [],
+        "test_missing_classes": [
+          "down_return"
+        ],
+        "train_class_counts": {
+          "continuous_oscillation": 88,
+          "down_return": 53,
+          "downward_motion": 157,
+          "stationary_press": 1358,
+          "up_return": 39,
+          "upward_motion": 409
+        },
+        "test_class_counts": {
+          "continuous_oscillation": 21,
+          "downward_motion": 10,
+          "stationary_press": 126,
+          "up_return": 15,
+          "upward_motion": 27
+        }
+      }
+    ],
+    "piece_counts": {
+      "ciou": 156,
+      "feng": 193,
+      "gu": 70,
+      "guan": 174,
+      "jiou": 334,
+      "liang": 273,
+      "siang": 222,
+      "yang": 263,
+      "yi": 419,
+      "yu": 199
+    },
+    "missing_predictors": {
+      "degree": 0,
+      "range": 0,
+      "score_onset": 0
+    },
+    "duplicate_event_ids": 0,
+    "sequence_order_issues": 0
+  },
+  "secondary": {
+    "total_rows": 1929,
+    "eligible_rows": 1712,
+    "excluded_rows": 217,
+    "exclusion_reasons": {
+      "documented_excluded_code_0": 214,
+      "missing_target": 2,
+      "out_of_binary_scope_3a": 1
+    },
+    "class_counts": {
+      "multi_note_attack": 167,
+      "single_note_attack": 1545
+    },
+    "piece_class_counts": {
+      "ciou": {
+        "multi_note_attack": 3,
+        "single_note_attack": 68
+      },
+      "feng": {
+        "single_note_attack": 90
+      },
+      "gu": {
+        "multi_note_attack": 2,
+        "single_note_attack": 67
+      },
+      "guan": {
+        "multi_note_attack": 12,
+        "single_note_attack": 70
+      },
+      "jiou": {
+        "multi_note_attack": 39,
+        "single_note_attack": 292
+      },
+      "liang": {
+        "multi_note_attack": 7,
+        "single_note_attack": 123
+      },
+      "siang": {
+        "multi_note_attack": 1,
+        "single_note_attack": 213
+      },
+      "yang": {
+        "multi_note_attack": 54,
+        "single_note_attack": 190
+      },
+      "yi": {
+        "multi_note_attack": 25,
+        "single_note_attack": 378
+      },
+      "yu": {
+        "multi_note_attack": 24,
+        "single_note_attack": 54
+      }
+    },
+    "outer_fold_class_coverage": [
+      {
+        "heldout_piece_group": "ciou",
+        "train_rows": 1641,
+        "test_rows": 71,
+        "train_missing_classes": [],
+        "test_missing_classes": [],
+        "train_class_counts": {
+          "multi_note_attack": 164,
+          "single_note_attack": 1477
+        },
+        "test_class_counts": {
+          "multi_note_attack": 3,
+          "single_note_attack": 68
+        }
+      },
+      {
+        "heldout_piece_group": "feng",
+        "train_rows": 1622,
+        "test_rows": 90,
+        "train_missing_classes": [],
+        "test_missing_classes": [
+          "multi_note_attack"
+        ],
+        "train_class_counts": {
+          "multi_note_attack": 167,
+          "single_note_attack": 1455
+        },
+        "test_class_counts": {
+          "single_note_attack": 90
+        }
+      },
+      {
+        "heldout_piece_group": "gu",
+        "train_rows": 1643,
+        "test_rows": 69,
+        "train_missing_classes": [],
+        "test_missing_classes": [],
+        "train_class_counts": {
+          "multi_note_attack": 165,
+          "single_note_attack": 1478
+        },
+        "test_class_counts": {
+          "multi_note_attack": 2,
+          "single_note_attack": 67
+        }
+      },
+      {
+        "heldout_piece_group": "guan",
+        "train_rows": 1630,
+        "test_rows": 82,
+        "train_missing_classes": [],
+        "test_missing_classes": [],
+        "train_class_counts": {
+          "multi_note_attack": 155,
+          "single_note_attack": 1475
+        },
+        "test_class_counts": {
+          "multi_note_attack": 12,
+          "single_note_attack": 70
+        }
+      },
+      {
+        "heldout_piece_group": "jiou",
+        "train_rows": 1381,
+        "test_rows": 331,
+        "train_missing_classes": [],
+        "test_missing_classes": [],
+        "train_class_counts": {
+          "multi_note_attack": 128,
+          "single_note_attack": 1253
+        },
+        "test_class_counts": {
+          "multi_note_attack": 39,
+          "single_note_attack": 292
+        }
+      },
+      {
+        "heldout_piece_group": "liang",
+        "train_rows": 1582,
+        "test_rows": 130,
+        "train_missing_classes": [],
+        "test_missing_classes": [],
+        "train_class_counts": {
+          "multi_note_attack": 160,
+          "single_note_attack": 1422
+        },
+        "test_class_counts": {
+          "multi_note_attack": 7,
+          "single_note_attack": 123
+        }
+      },
+      {
+        "heldout_piece_group": "siang",
+        "train_rows": 1498,
+        "test_rows": 214,
+        "train_missing_classes": [],
+        "test_missing_classes": [],
+        "train_class_counts": {
+          "multi_note_attack": 166,
+          "single_note_attack": 1332
+        },
+        "test_class_counts": {
+          "multi_note_attack": 1,
+          "single_note_attack": 213
+        }
+      },
+      {
+        "heldout_piece_group": "yang",
+        "train_rows": 1468,
+        "test_rows": 244,
+        "train_missing_classes": [],
+        "test_missing_classes": [],
+        "train_class_counts": {
+          "multi_note_attack": 113,
+          "single_note_attack": 1355
+        },
+        "test_class_counts": {
+          "multi_note_attack": 54,
+          "single_note_attack": 190
+        }
+      },
+      {
+        "heldout_piece_group": "yi",
+        "train_rows": 1309,
+        "test_rows": 403,
+        "train_missing_classes": [],
+        "test_missing_classes": [],
+        "train_class_counts": {
+          "multi_note_attack": 142,
+          "single_note_attack": 1167
+        },
+        "test_class_counts": {
+          "multi_note_attack": 25,
+          "single_note_attack": 378
+        }
+      },
+      {
+        "heldout_piece_group": "yu",
+        "train_rows": 1634,
+        "test_rows": 78,
+        "train_missing_classes": [],
+        "test_missing_classes": [],
+        "train_class_counts": {
+          "multi_note_attack": 143,
+          "single_note_attack": 1491
+        },
+        "test_class_counts": {
+          "multi_note_attack": 24,
+          "single_note_attack": 54
+        }
+      }
+    ],
+    "piece_counts_eligible": {
+      "ciou": 71,
+      "feng": 90,
+      "gu": 69,
+      "guan": 82,
+      "jiou": 331,
+      "liang": 130,
+      "siang": 214,
+      "yang": 244,
+      "yi": 403,
+      "yu": 78
+    },
+    "missing_predictors_eligible": {
+      "degree": 0,
+      "range": 0,
+      "score_onset": 0,
+      "string": 2,
+      "position": 0,
+      "right_finger_raw": 0,
+      "left_finger_raw": 0,
+      "left_pitch_tech_raw": 0,
+      "left_timbre_tech_raw": 2
+    },
+    "duplicate_event_ids": 0,
+    "sequence_order_issues": 0
+  },
+  "prohibited_predictor_hits": [],
+  "restricted_table_hashes": {
+    "t1_sha256": "c003991ff14d5a8488eeef515af674ce375b931d460db66cf9cd1c4f2dbd1adf",
+    "t2_eligible_sha256": "ec8bbc21e069ed3aa19558287ca358a2d8e6e5b35a1ffa3b28039e17bf33d780",
+    "t2_exclusions_sha256": "2ddfcf5216f5e769899b1393645c940b74833ebf04b3670cd1674d32b1085e89"
+  }
+}

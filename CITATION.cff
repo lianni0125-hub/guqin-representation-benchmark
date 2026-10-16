@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this framework, please cite the software release and the associated paper when available."
+title: "Guqin Representation Framework"
+version: "0.1.0-rc.1"
+date-released: "2026-10-16"
+authors:
+  - family-names: "Li"
+    given-names: "Anni"
+    affiliation: "University College London (UCL)"
+    orcid: "https://orcid.org/0009-0009-0092-5752"
+repository-code: "https://github.com/lianni0125-hub/guqin-representation-benchmark"
+url: "https://github.com/lianni0125-hub/guqin-representation-benchmark"
+license: "MIT"
+keywords:
+  - "guqin"
+  - "phonology"
+  - "representation learning"
+  - "computational musicology"
+  - "grouped cross-validation"

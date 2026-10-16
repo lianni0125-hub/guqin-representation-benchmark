@@ -1,0 +1,11 @@
+outer_fold,heldout_piece_group,training_piece_groups,split_hash
+1,ciou,feng|gu|guan|jiou|liang|siang|yang|yi|yu,676b099a1cd2776f37ff54a442caa7468faefe21818046dad61b1cb44a9a480b
+2,feng,ciou|gu|guan|jiou|liang|siang|yang|yi|yu,f209dbbdb69eff5537e7a464993ff8d0439be4fadf2a3766560e48e08636a2e6
+3,gu,ciou|feng|guan|jiou|liang|siang|yang|yi|yu,a4405e7341bbca98f772730d8470b5bb325e01ab20a1b79c0ff0ffe1bafc4a34
+4,guan,ciou|feng|gu|jiou|liang|siang|yang|yi|yu,4750cdfe8ac997ddad196b2b715be43ad419c00cef854ff7a6820ba40f8a393d
+5,jiou,ciou|feng|gu|guan|liang|siang|yang|yi|yu,f04db69527ca6bf408883b347634c78275348528adcc4f88c0c3a888ceb79f0c
+6,liang,ciou|feng|gu|guan|jiou|siang|yang|yi|yu,e14ec4cb0f03d3bd8f77ede5ca0bb3c794004911d1aa844303698e2c6e7e4941
+7,siang,ciou|feng|gu|guan|jiou|liang|yang|yi|yu,cfbe022223ea3ee58b44897475ba57eb17fed63b0e88434bff3a7632cb2d5f8c
+8,yang,ciou|feng|gu|guan|jiou|liang|siang|yi|yu,a822792de44947a9eafb2feaff10c22fd1ee71e7b15ab622f4248033375abafe
+9,yi,ciou|feng|gu|guan|jiou|liang|siang|yang|yu,54b37784c231f0ae58b4840bedaf07b444439f8a021f5ba50210aea790eb208d
+10,yu,ciou|feng|gu|guan|jiou|liang|siang|yang|yi,a92f2f07e9c752f7f0c6e3fac8d1f7789dde7183e8f3b13ebe3a52fd2c37b81a

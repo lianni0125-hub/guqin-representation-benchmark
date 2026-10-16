@@ -1,0 +1,36 @@
+{
+  "version": "0.1",
+  "targets": {
+    "T1_performed_lh_pitch_motion_6way": {
+      "current_controls": ["mode", "tuning", "degree", "range", "position_norm", "has_previous"],
+      "pitch_history": ["degree", "range"],
+      "gesture_history": ["lh_pitch_motion"],
+      "raw_history": ["raw_event_tuple"],
+      "lags": [1, 2],
+      "forbidden_current": ["target", "L tech(pitch)", "pitch", "contour", "duration", "acoustic_pitch", "acoustic_contour", "acoustic_duration"]
+    },
+    "T2_score_rh_attack_binary": {
+      "current_controls": ["mode", "tuning", "position_norm", "has_previous"],
+      "pitch_history": ["degree", "range", "string", "position"],
+      "gesture_history": ["rh_direction", "lh_pitch_motion", "lh_timbre"],
+      "raw_history": ["raw_event_tuple"],
+      "lags": [1, 2],
+      "forbidden_current": ["target", "R tech", "r_tech", "r_finger_multiplicity", "current_r_finger_count", "string", "position", "degree", "range", "lh_timbre"]
+    }
+  },
+  "representations": {
+    "R0": ["current_controls", "raw_history"],
+    "R1": ["current_controls", "pitch_history"],
+    "R2": ["current_controls", "gesture_history"],
+    "R3": ["current_controls", "pitch_history", "gesture_history"],
+    "R4": ["current_controls", "pitch_history", "gesture_history"],
+    "R5": ["current_controls"]
+  },
+  "r4_associations": ["lag_aligned_pitch_x_gesture"],
+  "missing_tokens": {
+    "beginning_of_sequence": "BOS",
+    "missing": "MISSING",
+    "unresolved_previous_target": "PREV_UNRESOLVED",
+    "unseen_in_training": "UNK"
+  }
+}

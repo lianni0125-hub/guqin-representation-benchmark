@@ -1,0 +1,20 @@
+{
+  "version": "0.1",
+  "frozen_at": "2026-10-16",
+  "status_before_outcome_inspection": "not run",
+  "role": "outcome-informed post-primary sensitivity; cannot replace the frozen six-way primary target",
+  "mapping": {
+    "stationary_press": "stationary_press",
+    "continuous_oscillation": "continuous_oscillation",
+    "upward_motion": "upward_motion",
+    "downward_motion": "downward_motion",
+    "up_return": "return_motion",
+    "down_return": "return_motion"
+  },
+  "question": "Does merging only the poorly recovered directional return pair yield a learnable return-motion class without altering the four other primary classes?",
+  "representations": ["R5", "R2", "R4M"],
+  "evaluation": "same nested grouped leave-one-piece-out procedure, C grid, seed and metrics as the primary analysis",
+  "success_interpretation": "Improved return-motion probability/recall shows that the six-way directional return granularity exceeded current support; it does not invalidate or replace the primary result.",
+  "failure_interpretation": "Persistent failure shows that simple direction merging is insufficient; report the boundary and stop target revision.",
+  "stop_rule": "No further target merges or model-input changes in Paper 1 after this sensitivity, regardless of outcome."
+}

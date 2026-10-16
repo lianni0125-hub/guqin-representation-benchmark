@@ -1,0 +1,20 @@
+{
+  "name": "guqin-representation-benchmark",
+  "version": "0.1.0-rc.1",
+  "private": true,
+  "description": "Builder-based framework for interpretable guqin notation-action representation research",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lianni0125-hub/guqin-representation-benchmark.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test:public": "node --test tests/public_fixture.test.mjs tests/representation_encoders.test.mjs tests/release_matrix.test.mjs tests/research_gate.test.mjs"
+  },
+  "dependencies": {
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

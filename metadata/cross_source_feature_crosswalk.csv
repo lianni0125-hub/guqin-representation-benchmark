@@ -1,0 +1,28 @@
+canonical_field,semantic_role,KuiSCIMA_v2,guqinMM_wushen_real,GQ39_score,GQ39_performance,Guqin_MusicXML,mapping_status,R_views,notes
+record_id,stable project identifier,generated,generated,generated,generated,generated,direct,R0-R5,Never use a source row number alone
+source_dataset,provenance,constant,constant,constant,constant,constant,direct,R5,Required grouping variable
+source_work,work identity,piece id/source filename,wushen partition only,name,name,work-title/file path,partial,R5,guqinMM real partition is not a multi-work sample
+source_section,within-work grouping,line and line-break cues only,not explicit,section,section,phrase file or measure,partial,R5,Do not equate line section phrase and measure
+source_witness,edition or performance identity,optical edition available,image/crop provenance unresolved,score version,performance clip,modern published score reference,partial,R5,Keep edition and performance IDs separate
+sequence_index,ordered token/event position,content order,metadata/file order,spreadsheet row order,spreadsheet row order,note order,direct,R0-R5,Order confidence must be recorded per source
+source_payload,reversible original annotation,notation_content,tree_linearization,source row,source row,MusicXML note/measure subtree,direct,audit,Must be preserved before normalization
+event_kind,sounding attack continuation or non-event,FULL_JIANZIPU/STRING_NUMBER/LEFT_HAND,inferred from component tree,event row,event row,note/rest/measure,partial,R0-R5,LEFT_HAND is a dependent continuation candidate not an independent pluck by default
+notation_structure,visible/compositional form,IDS-like content tree,layout-edge tree,absent,absent,absent,direct_where_present,R0/R3/R4,Do not synthesize glyph structure for GQ39 or MusicXML
+sound_type,san an or fan,TECHNIQUE labels,TECHNIQUE labels,derivable only if annotation codebook supports it,derivable only if annotation codebook supports it,staccato convention marks overtone only,partial,R1-R4,MusicXML staccato is dataset-specific overtone metadata not ordinary articulation
+string_set,plucked string or strings,number role inside tree plus STRING_NUMBER,number role inside tree,string,string,absent,direct_or_role_sensitive,R1-R4,Numeric atoms are not globally strings without structural role
+right_hand_action,right-hand plucking action,RIGHT_* labels,RIGHT_* labels,R tech,R tech,absent,direct,R2-R4,Source vocabularies require a versioned label map
+right_hand_finger,right-hand finger,not consistently separated from action,RIGHT labels mix finger/action,R finger,R finger,absent,partial,R2-R4,Do not infer a finger when the source only supplies a technique name
+left_hand_position,hui/pressed position,number role inside left subtree,number role inside left subtree,position,position,absent,direct_or_role_sensitive,R1-R4,Keep source spelling and normalized rational/ordinal value separately
+left_hand_finger,left-hand finger,LEFT_FINGER_* labels,LEFT_FINGER_* labels,L finger,L finger,absent,direct,R2-R4,Requires label-dictionary crosswalk
+left_pitch_technique,left-hand pitch-changing movement,LEFT_* movement labels,LEFT_* movement labels,L tech(pitch),L tech(pitch),absent,partial,R2-R4,One source category may map to multiple finer labels
+left_timbre_technique,left-hand timbral movement,subset of LEFT_* labels,subset of LEFT_* labels,L tech (timbre),L tech (timbre),absent,partial,R2-R4,KuiSCIMA/guqinMM split requires a documented lexical classification
+pitch_degree,relative pitch/scale degree,not explicit,not explicit,degree,degree,derivable from pitch plus declared tonic only,partial,R1/R3/R4,Never derive without tuning/mode context
+pitch_range,event pitch span,not explicit,not explicit,range,range,not explicit,source_specific,R1/R3/R4,GQ39 range is not interchangeable with octave
+absolute_pitch,realized pitch,derivable only with tuning string and position,derivable only with tuning string and position,not generally explicit,may be linked through clip metadata,step/alter/octave,dataset_specific,R1/R3/R4,Derived pitch must retain derivation assumptions
+onset,temporal location,absent,absent,onset score units,onset performance time,note order/measure position,non_equivalent,R5,Score onset and acoustic onset are different tiers
+duration,event duration,absent,absent,estimated score duration,performance duration,MusicXML duration/type,dataset_specific,R5,Do not pool score and performance duration without tier labels
+lyric_alignment,text associated with notation,text_content,absent,absent,absent,absent,source_specific,optional,Not a shared core predictor by default
+context_dependency,inheritance or continuation,LEFT_HAND implies previous sounding event candidate,may be inferred only after sequence validation,implicit in rows/techniques,implicit in rows/techniques,ties/slurs if present plus note sequence,analytic_not_direct,R4,Store source observation separately from inferred relation
+augmentation_status,real versus synthetic,real,real for wushen_1,real annotation,real annotation,manual transcription,direct,R5,guqinMM augmented images excluded from historical counts and held-out evidence
+missingness_reason,why a value is absent,generated,generated,generated,generated,generated,project_added,R0-R5,Allowed values: source_not_annotated not_applicable unresolved unavailable rights_withheld
+rights_tier,redistribution status,GPL-3.0,metadata scope unresolved,no licence,no licence,no licence/projected modern-source risk,project_added,release,Controls packaging not scientific inclusion

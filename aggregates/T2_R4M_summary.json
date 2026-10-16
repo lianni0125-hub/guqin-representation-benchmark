@@ -1,0 +1,306 @@
+{
+  "target": "T2",
+  "representation": "R4M",
+  "n": 1712,
+  "outer_folds": 10,
+  "token_mean_nll": 0.2174718593847912,
+  "piece_macro_nll": 0.216324561790807,
+  "per_piece_nll": {
+    "ciou": 0.14170216604331462,
+    "feng": 0.05999528130253645,
+    "gu": 0.128918348915452,
+    "guan": 0.3761972377762068,
+    "jiou": 0.34248723563854894,
+    "liang": 0.16896982193478086,
+    "siang": 0.0362365076113984,
+    "yang": 0.2840701023995594,
+    "yi": 0.17226649124646443,
+    "yu": 0.4524024250398082
+  },
+  "folds": [
+    {
+      "piece_group": "ciou",
+      "n": 71,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 0.2725049966965544,
+        "0.1": 0.22605763513023908,
+        "1.0": 0.24904585590642872,
+        "10.0": 0.3552602054444551
+      },
+      "nll": 0.1417021660433147,
+      "brier": 0.06574288936062692,
+      "balanced_accuracy": 0.6666666666666666,
+      "macro_f1": 0.7427536231884058,
+      "per_class_recall": {
+        "single_note_attack": 1.0,
+        "multi_note_attack": 0.3333333333333333
+      },
+      "per_class_support": {
+        "single_note_attack": 68,
+        "multi_note_attack": 3
+      },
+      "encoded_feature_columns": 676,
+      "interaction_terms": 0,
+      "fitted_coefficients": 677,
+      "unk_rate": 0.026512013256006627,
+      "multi_note_attack_average_precision": 0.44166666666666665
+    },
+    {
+      "piece_group": "feng",
+      "n": 90,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 0.2789689003110439,
+        "0.1": 0.23232790913008428,
+        "1.0": 0.2541240741992356,
+        "10.0": 0.359355930561265
+      },
+      "nll": 0.05999528130253646,
+      "brier": 0.011969341118766859,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 0.5,
+      "per_class_recall": {
+        "single_note_attack": 1.0,
+        "multi_note_attack": null
+      },
+      "per_class_support": {
+        "single_note_attack": 90,
+        "multi_note_attack": 0
+      },
+      "encoded_feature_columns": 679,
+      "interaction_terms": 0,
+      "fitted_coefficients": 680,
+      "unk_rate": 0.06928104575163399,
+      "multi_note_attack_average_precision": null
+    },
+    {
+      "piece_group": "gu",
+      "n": 69,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 0.2739918254787335,
+        "0.1": 0.22617338122619732,
+        "1.0": 0.24359547630140563,
+        "10.0": 0.3517021031815415
+      },
+      "nll": 0.128918348915452,
+      "brier": 0.05811510756269598,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.49264705882352944,
+      "per_class_recall": {
+        "single_note_attack": 1.0,
+        "multi_note_attack": 0.0
+      },
+      "per_class_support": {
+        "single_note_attack": 67,
+        "multi_note_attack": 2
+      },
+      "encoded_feature_columns": 680,
+      "interaction_terms": 0,
+      "fitted_coefficients": 681,
+      "unk_rate": 0.011935208866155157,
+      "multi_note_attack_average_precision": 0.07107843137254902
+    },
+    {
+      "piece_group": "guan",
+      "n": 82,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 0.25154984064305524,
+        "0.1": 0.2035848233767877,
+        "1.0": 0.2244001853651581,
+        "10.0": 0.3119005873562756
+      },
+      "nll": 0.3761972377762068,
+      "brier": 0.22080028889096984,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4605263157894737,
+      "per_class_recall": {
+        "single_note_attack": 1.0,
+        "multi_note_attack": 0.0
+      },
+      "per_class_support": {
+        "single_note_attack": 70,
+        "multi_note_attack": 12
+      },
+      "encoded_feature_columns": 666,
+      "interaction_terms": 0,
+      "fitted_coefficients": 667,
+      "unk_rate": 0.03012912482065997,
+      "multi_note_attack_average_precision": 0.48685456442689196
+    },
+    {
+      "piece_group": "jiou",
+      "n": 331,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 0.2456374981944844,
+        "0.1": 0.19870105524493498,
+        "1.0": 0.2197070490875436,
+        "10.0": 0.30834202512585146
+      },
+      "nll": 0.3424872356385488,
+      "brier": 0.21790783785957807,
+      "balanced_accuracy": 0.4931506849315068,
+      "macro_f1": 0.46526655896607433,
+      "per_class_recall": {
+        "single_note_attack": 0.9863013698630136,
+        "multi_note_attack": 0.0
+      },
+      "per_class_support": {
+        "single_note_attack": 292,
+        "multi_note_attack": 39
+      },
+      "encoded_feature_columns": 668,
+      "interaction_terms": 0,
+      "fitted_coefficients": 669,
+      "unk_rate": 0.02203660920561578,
+      "multi_note_attack_average_precision": 0.2446055260784729
+    },
+    {
+      "piece_group": "liang",
+      "n": 130,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 0.26915720722846026,
+        "0.1": 0.22304951744767088,
+        "1.0": 0.24545691275435988,
+        "10.0": 0.35658836980683567
+      },
+      "nll": 0.16896982193478088,
+      "brier": 0.0833912567573701,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.48616600790513836,
+      "per_class_recall": {
+        "single_note_attack": 1.0,
+        "multi_note_attack": 0.0
+      },
+      "per_class_support": {
+        "single_note_attack": 123,
+        "multi_note_attack": 7
+      },
+      "encoded_feature_columns": 662,
+      "interaction_terms": 0,
+      "fitted_coefficients": 663,
+      "unk_rate": 0.025339366515837104,
+      "multi_note_attack_average_precision": 0.5537738905085844
+    },
+    {
+      "piece_group": "siang",
+      "n": 214,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 0.28281924314511664,
+        "0.1": 0.238783274349782,
+        "1.0": 0.263556079659709,
+        "10.0": 0.3865346413474746
+      },
+      "nll": 0.03623650761139839,
+      "brier": 0.00794105850439736,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.49882903981264637,
+      "per_class_recall": {
+        "single_note_attack": 1.0,
+        "multi_note_attack": 0.0
+      },
+      "per_class_support": {
+        "single_note_attack": 213,
+        "multi_note_attack": 1
+      },
+      "encoded_feature_columns": 692,
+      "interaction_terms": 0,
+      "fitted_coefficients": 693,
+      "unk_rate": 0.0010995052226498076,
+      "multi_note_attack_average_precision": 1.0
+    },
+    {
+      "piece_group": "yang",
+      "n": 244,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 0.26920951387262304,
+        "0.1": 0.22953722871244953,
+        "1.0": 0.2470053665846218,
+        "10.0": 0.36173933943608394
+      },
+      "nll": 0.28407010239955943,
+      "brier": 0.1846637461389431,
+      "balanced_accuracy": 0.7010721247563353,
+      "macro_f1": 0.7455683003128258,
+      "per_class_recall": {
+        "single_note_attack": 0.9947368421052631,
+        "multi_note_attack": 0.4074074074074074
+      },
+      "per_class_support": {
+        "single_note_attack": 190,
+        "multi_note_attack": 54
+      },
+      "encoded_feature_columns": 674,
+      "interaction_terms": 0,
+      "fitted_coefficients": 675,
+      "unk_rate": 0.013500482160077145,
+      "multi_note_attack_average_precision": 0.8640385880220426
+    },
+    {
+      "piece_group": "yi",
+      "n": 403,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 0.28075030113822685,
+        "0.1": 0.240932800121464,
+        "1.0": 0.2904347463660424,
+        "10.0": 0.4644655798020071
+      },
+      "nll": 0.17226649124646448,
+      "brier": 0.08982271323558207,
+      "balanced_accuracy": 0.54,
+      "macro_f1": 0.5593115580278609,
+      "per_class_recall": {
+        "single_note_attack": 1.0,
+        "multi_note_attack": 0.08
+      },
+      "per_class_support": {
+        "single_note_attack": 378,
+        "multi_note_attack": 25
+      },
+      "encoded_feature_columns": 543,
+      "interaction_terms": 0,
+      "fitted_coefficients": 544,
+      "unk_rate": 0.042767479200116774,
+      "multi_note_attack_average_precision": 0.4903901170352519
+    },
+    {
+      "piece_group": "yu",
+      "n": 78,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 0.24275593477739804,
+        "0.1": 0.2130083649374882,
+        "1.0": 0.23458488504757258,
+        "10.0": 0.31904112542921464
+      },
+      "nll": 0.4524024250398082,
+      "brier": 0.30170604869662976,
+      "balanced_accuracy": 0.6481481481481481,
+      "macro_f1": 0.6615236258437801,
+      "per_class_recall": {
+        "single_note_attack": 0.9629629629629629,
+        "multi_note_attack": 0.3333333333333333
+      },
+      "per_class_support": {
+        "single_note_attack": 54,
+        "multi_note_attack": 24
+      },
+      "encoded_feature_columns": 653,
+      "interaction_terms": 0,
+      "fitted_coefficients": 654,
+      "unk_rate": 0.049773755656108594,
+      "multi_note_attack_average_precision": 0.7673206386765278
+    }
+  ],
+  "seed": 20261016,
+  "opaque_unresolved": false,
+  "excluded_piece": null,
+  "status": "exploratory_grouped_cross_validation"
+}

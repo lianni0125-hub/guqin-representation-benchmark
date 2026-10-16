@@ -1,0 +1,135 @@
+{
+  "registry_version": "0.1",
+  "frozen_at": "2026-10-16",
+  "outcome_inspection_status": "field frequencies inspected; no representation-model outcomes computed",
+  "grouping": {
+    "group_key": "piece_group",
+    "outer_evaluation": "leave_one_piece_out",
+    "outer_groups": 10,
+    "inner_selection": "grouped cross_validation within the nine outer-training piece groups",
+    "inference_status": "exploratory_grouped_cross_validation",
+    "forbidden_split_units": ["note", "row", "worksheet", "section", "performance_clip"]
+  },
+  "targets": [
+    {
+      "target_id": "T1_performed_lh_pitch_motion_6way",
+      "role": "primary",
+      "source": "GQ39/performance measurement worksheets",
+      "raw_field": "L tech(pitch)",
+      "unit": "performed note-aligned event",
+      "eligible_rows": 2303,
+      "excluded_target_rows": 0,
+      "mapping": {
+        "stationary_press": ["1"],
+        "continuous_oscillation": ["2"],
+        "upward_motion": ["3", "3a", "3b", "3c", "3a,3b"],
+        "downward_motion": ["4", "4a", "4b"],
+        "up_return": ["5", "5a"],
+        "down_return": ["6", "6a"]
+      },
+      "class_counts": {
+        "stationary_press": 1484,
+        "continuous_oscillation": 109,
+        "upward_motion": 436,
+        "downward_motion": 167,
+        "up_return": 54,
+        "down_return": 53
+      },
+      "prohibited_current_event_inputs": [
+        "L tech(pitch)",
+        "pitch",
+        "contour",
+        "duration",
+        "any feature derived from the current acoustic trajectory",
+        "performance-workbook copied score-template row unless alignment is independently validated"
+      ],
+      "rationale": "All 2303 declared performed notes map to author-documented broad motion classes; current acoustic fields are withheld because the annotation may have been informed by the same trajectory."
+    },
+    {
+      "target_id": "T2_score_rh_attack_binary",
+      "role": "secondary",
+      "source": "GQ39/canonical score full-gesture worksheets",
+      "raw_field": "R tech",
+      "unit": "score event",
+      "eligible_rows": 1712,
+      "excluded_target_rows": 217,
+      "mapping": {
+        "single_note_attack": ["1"],
+        "multi_note_attack": ["2"]
+      },
+      "class_counts": {
+        "single_note_attack": 1545,
+        "multi_note_attack": 167
+      },
+      "excluded_codes": ["0", "3a", "missing"],
+      "prohibited_current_event_inputs": [
+        "R tech",
+        "number of simultaneous values in current R finger",
+        "current string, position, degree, range, or left-hand technique fields whose compound value cardinality encodes the same-event single-versus-multiple distinction",
+        "any current-event field mechanically constructed from the single-versus-multiple attack distinction"
+      ],
+      "rationale": "The binary distinction is explicitly documented and recurs across piece groups; current right-finger multiplicity is withheld to avoid definitional leakage."
+    }
+  ],
+  "common_information_boundary": {
+    "allowed": [
+      "training-fold-fitted encodings",
+      "BOS marker",
+      "explicit UNK/MISSING indicators",
+      "current non-target controls listed for the target",
+      "previous events only for sequential representation features"
+    ],
+    "forbidden": [
+      "future events",
+      "current target or deterministic recoding of it",
+      "test-fold vocabulary or frequency information",
+      "audio-derived current-event variables for T1",
+      "duplicate score templates as independent observations",
+      "piece identity used to memorize a held-out piece"
+    ]
+  },
+  "representation_inputs": {
+    "shared_R5_controls": {
+      "T1_performed_lh_pitch_motion_6way": ["mode", "tuning", "degree", "range", "normalized within-clip score onset", "BOS/previous-event availability"],
+      "T2_score_rh_attack_binary": ["mode", "tuning", "normalized within-section onset", "BOS/previous-event availability"]
+    },
+    "R0_atomic": "R5 plus the previous event as one unsplit raw tuple; unseen tuples map to UNK.",
+    "R1_pitch_centred": "R5 plus separately encoded lag-1 and lag-2 pitch/degree/range states and auditable interval/change features.",
+    "R2_gesture_centred": "R5 plus separately encoded lag-1 and lag-2 documented gesture supercategories; T2 excludes current right-finger multiplicity.",
+    "R3_flat_combined": "R5 plus a single flat joint encoding of the same lagged pitch and gesture primitives available to R4.",
+    "R4_multi_tier": "R5 plus separate pitch and gesture histories and predeclared lag-aligned cross-tier association terms; no extra primitive information beyond R3.",
+    "R5_context_physical": "Only the target-specific shared controls; no candidate pitch-history or gesture-history representation."
+  },
+  "estimation": {
+    "model_family": "regularized multinomial logistic model with categorical one-hot encodings and predeclared interactions",
+    "regularization_grid_C": [0.01, 0.1, 1, 10],
+    "selection_metric": "inner-grouped mean negative_log_likelihood",
+    "class_weighting": "none for fitting the primary proper-scoring model; class-balanced metrics are reported separately",
+    "random_seeds": [20261016],
+    "fallback": "If separation or fold-level class absence prevents stable fitting, use a Dirichlet-smoothed categorical conditional model and mark the affected comparison exploratory."
+  },
+  "metrics": {
+    "primary": "token_mean_negative_log_likelihood_nats",
+    "required_secondary": [
+      "piece_macro_mean_negative_log_likelihood_nats",
+      "multiclass_brier_score",
+      "balanced_accuracy",
+      "macro_f1",
+      "per_class_recall",
+      "per_piece_delta_nll_vs_R5"
+    ],
+    "T2_additional": ["multi_note_attack_average_precision"],
+    "uncertainty": "Report the distribution across the 10 held-out pieces and a piece-level bootstrap interval; no token-level independence p-values."
+  },
+  "complexity": {
+    "selection_rule": "Report a fit-complexity Pareto frontier; do not choose a post-hoc scalar lambda.",
+    "required_counts": ["input primitives", "encoded feature columns", "interaction terms", "fitted coefficients", "observed atomic-state inventory", "UNK rate by held-out piece"],
+    "comparison_rule": "R3 and R4 must use identical primitive information; any R4 advantage obtained from extra inputs is invalid."
+  },
+  "missingness": {
+    "target": "Rows with undocumented, missing, cross-supercategory, or unresolvable target codes are excluded from target loss and counted by piece.",
+    "predictor": "Do not impute from another dataset. Encode source-missing, unresolved, not-applicable and unseen-in-training separately where available.",
+    "previous_unknown_target": "Represent as PREV_UNRESOLVED; never map source code 0 to no-technique without evidence.",
+    "sensitivity_sets": ["documented_only", "documented_plus_opaque_raw_predictors", "exclude_piece_with_highest_missing_rate"]
+  }
+}

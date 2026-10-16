@@ -1,0 +1,358 @@
+{
+  "target": "T1",
+  "representation": "R5",
+  "n": 2303,
+  "outer_folds": 10,
+  "token_mean_nll": 0.9520074478856848,
+  "piece_macro_nll": 0.9903621385487869,
+  "per_piece_nll": {
+    "ciou": 1.179187009070466,
+    "feng": 1.372329711593851,
+    "gu": 1.1403346282416356,
+    "guan": 0.9914986734121801,
+    "jiou": 0.6324496789812213,
+    "liang": 0.9412199128445992,
+    "siang": 0.7035511567271866,
+    "yang": 0.9293016421771526,
+    "yi": 1.0081554017713235,
+    "yu": 1.0055935706682515
+  },
+  "folds": [
+    {
+      "piece_group": "ciou",
+      "n": 156,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 1.0299439285742775,
+        "0.1": 0.961412446139525,
+        "1.0": 0.9732193017431212,
+        "10.0": 1.0929915858477985
+      },
+      "nll": 1.179187009070466,
+      "brier": 0.5722654998410808,
+      "balanced_accuracy": 0.27111111111111114,
+      "macro_f1": 0.2518947769729317,
+      "per_class_recall": {
+        "stationary_press": 1.0,
+        "continuous_oscillation": 0.0,
+        "upward_motion": 0.35555555555555557,
+        "downward_motion": 0.0,
+        "return_motion": 0.0
+      },
+      "per_class_support": {
+        "stationary_press": 79,
+        "continuous_oscillation": 13,
+        "upward_motion": 45,
+        "downward_motion": 1,
+        "return_motion": 18
+      },
+      "encoded_feature_columns": 115,
+      "interaction_terms": 0,
+      "fitted_coefficients": 580,
+      "unk_rate": 0.015384615384615385
+    },
+    {
+      "piece_group": "feng",
+      "n": 193,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 1.0154374976534237,
+        "0.1": 0.947995477198365,
+        "1.0": 0.9570453449097764,
+        "10.0": 1.0516535406247487
+      },
+      "nll": 1.372329711593851,
+      "brier": 0.7192817613838424,
+      "balanced_accuracy": 0.24113300492610837,
+      "macro_f1": 0.19806324110671936,
+      "per_class_recall": {
+        "stationary_press": 0.9642857142857143,
+        "continuous_oscillation": 0.0,
+        "upward_motion": 0.2413793103448276,
+        "downward_motion": 0.0,
+        "return_motion": 0.0
+      },
+      "per_class_support": {
+        "stationary_press": 84,
+        "continuous_oscillation": 25,
+        "upward_motion": 58,
+        "downward_motion": 20,
+        "return_motion": 6
+      },
+      "encoded_feature_columns": 118,
+      "interaction_terms": 0,
+      "fitted_coefficients": 595,
+      "unk_rate": 0.2
+    },
+    {
+      "piece_group": "gu",
+      "n": 70,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 1.035942789332404,
+        "0.1": 0.9796670175079844,
+        "1.0": 1.000730814745281,
+        "10.0": 1.099205499664428
+      },
+      "nll": 1.1403346282416353,
+      "brier": 0.5100901084039308,
+      "balanced_accuracy": 0.47444444444444445,
+      "macro_f1": 0.4440547800098362,
+      "per_class_recall": {
+        "stationary_press": 0.85,
+        "continuous_oscillation": 0.0,
+        "upward_motion": 0.8,
+        "downward_motion": 0.2222222222222222,
+        "return_motion": 0.5
+      },
+      "per_class_support": {
+        "stationary_press": 40,
+        "continuous_oscillation": 9,
+        "upward_motion": 10,
+        "downward_motion": 9,
+        "return_motion": 2
+      },
+      "encoded_feature_columns": 116,
+      "interaction_terms": 0,
+      "fitted_coefficients": 585,
+      "unk_rate": 0.008571428571428572
+    },
+    {
+      "piece_group": "guan",
+      "n": 174,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 1.061692008681013,
+        "0.1": 1.001024347781452,
+        "1.0": 1.0123764847406551,
+        "10.0": 1.1124889844177301
+      },
+      "nll": 0.9914986734121801,
+      "brier": 0.516129727812931,
+      "balanced_accuracy": 0.20625,
+      "macro_f1": 0.16854545454545455,
+      "per_class_recall": {
+        "stationary_press": 1.0,
+        "continuous_oscillation": 0.0,
+        "upward_motion": 0.03125,
+        "downward_motion": 0.0,
+        "return_motion": 0.0
+      },
+      "per_class_support": {
+        "stationary_press": 109,
+        "continuous_oscillation": 7,
+        "upward_motion": 32,
+        "downward_motion": 18,
+        "return_motion": 8
+      },
+      "encoded_feature_columns": 116,
+      "interaction_terms": 0,
+      "fitted_coefficients": 585,
+      "unk_rate": 0.005747126436781609
+    },
+    {
+      "piece_group": "jiou",
+      "n": 334,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 1.0867972803478434,
+        "0.1": 1.0055481964196948,
+        "1.0": 1.0134266157419016,
+        "10.0": 1.1187552247139063
+      },
+      "nll": 0.6324496789812216,
+      "brier": 0.3010771301683518,
+      "balanced_accuracy": 0.28400765445598686,
+      "macro_f1": 0.21881958212597225,
+      "per_class_recall": {
+        "stationary_press": 0.8779661016949153,
+        "continuous_oscillation": 0.0,
+        "upward_motion": 0.25806451612903225,
+        "downward_motion": null,
+        "return_motion": 0.0
+      },
+      "per_class_support": {
+        "stationary_press": 295,
+        "continuous_oscillation": 2,
+        "upward_motion": 31,
+        "downward_motion": 0,
+        "return_motion": 6
+      },
+      "encoded_feature_columns": 118,
+      "interaction_terms": 0,
+      "fitted_coefficients": 595,
+      "unk_rate": 0.003592814371257485
+    },
+    {
+      "piece_group": "liang",
+      "n": 273,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 1.0616415398769632,
+        "0.1": 1.0207443693347562,
+        "1.0": 1.034957511111952,
+        "10.0": 1.1208394092965415
+      },
+      "nll": 0.9412199128445992,
+      "brier": 0.47849033245329925,
+      "balanced_accuracy": 0.2872587673791243,
+      "macro_f1": 0.2669079939668175,
+      "per_class_recall": {
+        "stationary_press": 0.9936708860759493,
+        "continuous_oscillation": 0.0,
+        "upward_motion": 0.4426229508196721,
+        "downward_motion": 0.0,
+        "return_motion": 0.0
+      },
+      "per_class_support": {
+        "stationary_press": 158,
+        "continuous_oscillation": 12,
+        "upward_motion": 61,
+        "downward_motion": 24,
+        "return_motion": 18
+      },
+      "encoded_feature_columns": 114,
+      "interaction_terms": 0,
+      "fitted_coefficients": 575,
+      "unk_rate": 0.011721611721611722
+    },
+    {
+      "piece_group": "siang",
+      "n": 222,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 1.0878956510983715,
+        "0.1": 1.0377818988024086,
+        "1.0": 1.07094744870794,
+        "10.0": 1.1908233048576173
+      },
+      "nll": 0.7035511567271867,
+      "brier": 0.3414008218920396,
+      "balanced_accuracy": 0.3458333333333333,
+      "macro_f1": 0.3688678710350537,
+      "per_class_recall": {
+        "stationary_press": 0.9702380952380952,
+        "continuous_oscillation": 0.0,
+        "upward_motion": 0.5714285714285714,
+        "downward_motion": 0.1875,
+        "return_motion": 0.0
+      },
+      "per_class_support": {
+        "stationary_press": 168,
+        "continuous_oscillation": 1,
+        "upward_motion": 35,
+        "downward_motion": 16,
+        "return_motion": 2
+      },
+      "encoded_feature_columns": 118,
+      "interaction_terms": 0,
+      "fitted_coefficients": 595,
+      "unk_rate": 0.0045045045045045045
+    },
+    {
+      "piece_group": "yang",
+      "n": 263,
+      "selected_C": 1.0,
+      "inner_piece_macro_nll": {
+        "0.01": 1.0696725670097782,
+        "0.1": 1.002171211230972,
+        "1.0": 0.9965405220250036,
+        "10.0": 1.045832495833714
+      },
+      "nll": 0.9293016421771525,
+      "brier": 0.42482872158032325,
+      "balanced_accuracy": 0.27629666462668295,
+      "macro_f1": 0.28247877758913414,
+      "per_class_recall": {
+        "stationary_press": 0.9069767441860465,
+        "continuous_oscillation": 0.0,
+        "upward_motion": 0.421875,
+        "downward_motion": 0.05263157894736842,
+        "return_motion": 0.0
+      },
+      "per_class_support": {
+        "stationary_press": 172,
+        "continuous_oscillation": 3,
+        "upward_motion": 64,
+        "downward_motion": 19,
+        "return_motion": 5
+      },
+      "encoded_feature_columns": 117,
+      "interaction_terms": 0,
+      "fitted_coefficients": 590,
+      "unk_rate": 0.0038022813688212928
+    },
+    {
+      "piece_group": "yi",
+      "n": 419,
+      "selected_C": 1.0,
+      "inner_piece_macro_nll": {
+        "0.01": 1.0666337312245922,
+        "0.1": 1.0096572243608484,
+        "1.0": 1.0007552656990297,
+        "10.0": 1.0523625492890472
+      },
+      "nll": 1.0081554017713235,
+      "brier": 0.4809456588095006,
+      "balanced_accuracy": 0.3573341394889936,
+      "macro_f1": 0.36967914182747086,
+      "per_class_recall": {
+        "stationary_press": 0.9841897233201581,
+        "continuous_oscillation": 0.25,
+        "upward_motion": 0.3013698630136986,
+        "downward_motion": 0.14,
+        "return_motion": 0.1111111111111111
+      },
+      "per_class_support": {
+        "stationary_press": 253,
+        "continuous_oscillation": 16,
+        "upward_motion": 73,
+        "downward_motion": 50,
+        "return_motion": 27
+      },
+      "encoded_feature_columns": 94,
+      "interaction_terms": 0,
+      "fitted_coefficients": 475,
+      "unk_rate": 0.016229116945107397
+    },
+    {
+      "piece_group": "yu",
+      "n": 199,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 1.0514819729240832,
+        "0.1": 0.9903519096723871,
+        "1.0": 0.993231051707159,
+        "10.0": 1.0520948618803503
+      },
+      "nll": 1.0055935706682513,
+      "brier": 0.47649640149922623,
+      "balanced_accuracy": 0.31481481481481477,
+      "macro_f1": 0.26851008117308195,
+      "per_class_recall": {
+        "stationary_press": 0.9444444444444444,
+        "continuous_oscillation": 0.0,
+        "upward_motion": 0.6296296296296297,
+        "downward_motion": 0.0,
+        "return_motion": 0.0
+      },
+      "per_class_support": {
+        "stationary_press": 126,
+        "continuous_oscillation": 21,
+        "upward_motion": 27,
+        "downward_motion": 10,
+        "return_motion": 15
+      },
+      "encoded_feature_columns": 113,
+      "interaction_terms": 0,
+      "fitted_coefficients": 570,
+      "unk_rate": 0.022110552763819097
+    }
+  ],
+  "seed": 20261016,
+  "opaque_unresolved": false,
+  "excluded_piece": null,
+  "dropped_gesture_field": null,
+  "target_sensitivity": "merge_returns",
+  "status": "exploratory_grouped_cross_validation"
+}

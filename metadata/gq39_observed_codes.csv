@@ -1,0 +1,395 @@
+corpus,field,raw_code,count,status,reason
+performance,L finger,0,516,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,"0,1",4,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,"0,1,1",15,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,"0,1,1,1",7,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,"0,3,3",8,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,"0,4",13,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,"0,4,4",11,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,"0,4,4,4",4,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,"0,4,4,4,4",1,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,0.1,42,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,0.4,37,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,1,603,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,"1,0",34,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,"1,1",9,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,"1,1,",1,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,"1,1,1",39,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,"1,1,1,1",10,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,"1,1,1,1,1",1,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,1.1,140,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,1.3,4,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,1.4,1,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,2,95,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,3,60,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,"3,0",9,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,"3,3",1,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,"3,3,3",9,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,3.1,2,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,3.3,9,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,4,570,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,"4,0",27,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,"4,4",4,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,"4,4,4",10,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,"4,4,4,4",1,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,"4,4,4,4,4",1,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,4.1,3,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,4.4,33,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,9,2,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L finger,10,8,unresolved,No finger-number mapping occurs in the embedded instructions.
+performance,L tech (timbre),"0,3",1,unresolved,"Contains 0, a decimal-like value, or another undefined atom."
+performance,L tech (timbre),"0,3,3",4,unresolved,"Contains 0, a decimal-like value, or another undefined atom."
+performance,L tech (timbre),1,372,documented,All atomic values occur in an embedded definition.
+performance,L tech (timbre),1.1,9,unresolved,"Contains 0, a decimal-like value, or another undefined atom."
+performance,L tech (timbre),1.3,1,unresolved,"Contains 0, a decimal-like value, or another undefined atom."
+performance,L tech (timbre),2,593,documented,All atomic values occur in an embedded definition.
+performance,L tech (timbre),"2,3",27,documented,All atomic values occur in an embedded definition.
+performance,L tech (timbre),"2,3,3",27,documented,All atomic values occur in an embedded definition.
+performance,L tech (timbre),"2,3,3,3",11,documented,All atomic values occur in an embedded definition.
+performance,L tech (timbre),"2,3,3,3,3",1,documented,All atomic values occur in an embedded definition.
+performance,L tech (timbre),2.1,1,unresolved,"Contains 0, a decimal-like value, or another undefined atom."
+performance,L tech (timbre),2.3,71,unresolved,"Contains 0, a decimal-like value, or another undefined atom."
+performance,L tech (timbre),3,714,documented,All atomic values occur in an embedded definition.
+performance,L tech (timbre),"3,0",2,unresolved,"Contains 0, a decimal-like value, or another undefined atom."
+performance,L tech (timbre),"3,2",64,documented,All atomic values occur in an embedded definition.
+performance,L tech (timbre),"3,3",17,documented,All atomic values occur in an embedded definition.
+performance,L tech (timbre),"3,3,3",57,documented,All atomic values occur in an embedded definition.
+performance,L tech (timbre),"3,3,3,3",10,documented,All atomic values occur in an embedded definition.
+performance,L tech (timbre),"3,3,3,3,3",1,documented,All atomic values occur in an embedded definition.
+performance,L tech (timbre),3.2,10,unresolved,"Contains 0, a decimal-like value, or another undefined atom."
+performance,L tech (timbre),3.3,161,unresolved,"Contains 0, a decimal-like value, or another undefined atom."
+performance,L tech (timbre),4,170,documented,All atomic values occur in an embedded definition.
+performance,L tech (timbre),"4,3",5,documented,All atomic values occur in an embedded definition.
+performance,L tech (timbre),"4,3,3,3",1,documented,All atomic values occur in an embedded definition.
+performance,L tech (timbre),"4,3,3,3,3",1,documented,All atomic values occur in an embedded definition.
+performance,L tech (timbre),4.3,10,unresolved,"Contains 0, a decimal-like value, or another undefined atom."
+performance,L tech(pitch),0,969,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch),"0,1",13,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch),"0,3a",2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch),"0,3b",5,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch),"0,3d",2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch),"0,4a",3,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch),"0,4b",5,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch),"0,5a",6,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch),"0,5b",5,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch),"0,7a",2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch),0.1,33,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch),1,2284,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),"1,0",55,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch),2,199,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),"2,0",12,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch),"2,3b",2,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),"2,4b",2,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),"2,5a",2,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),2b,2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch),3,427,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),3a,338,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),"3a,0",8,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch),"3a,2",6,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),"3a,3b",9,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),3b,176,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),"3b,2",3,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),3c,22,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),3d,7,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),3e,8,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),4,184,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),4a,107,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),"4a,0",1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch),"4a,2",21,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),"4a,2,3b,5b",4,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),"4a,3b",2,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),"4a,3c",8,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),"4a,4b",10,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),"4a,5a",1,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),"4a,5b",17,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),4a.3b,2,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),4b,61,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),5,60,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),5a,14,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),5b,11,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),"5b,0",2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch),5c,5,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),5d,4,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),6,73,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),6a,25,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch),6b,4,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch),7b,6,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch),7c,5,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch),7e,2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch),7f,1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch),7g,1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch),8b,2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),0,2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),"0,3a",34,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),"0,3a,2,5a",2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),"0,3a,3b,3d",1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),"0,3a,3d",2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),"0,3a,5a",4,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),"0,3a,7a",2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),"0,3b",2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),"0,4a",4,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),"0,4a,4d",1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),"0,5a",4,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),"0,6a,6b",2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),0.1,2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),1,55,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"1,0",12,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),"2,0",2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),"2,1,4b",1,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"2,3b",1,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"2,6a",1,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),3a,19,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"3a,0",21,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),"3a,2",10,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"3a,2,3b",1,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"3a,2,3c",1,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"3a,3b",12,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"3a,3b,2",1,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"3a,3c",1,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"3a,4b",8,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"3a,5a",6,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"3a,5b,0",2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),"3a,6a",2,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"3a,6a,5c",2,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"3a,7a,8b",3,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),"3a,7b",4,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),"3a,7c",1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),"3a,7n",1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),3b,2,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),4a,5,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"4a,2",4,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"4a,2,3b",2,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"4a,3a",20,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"4a,3b",4,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"4a,3b,8b",3,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),"4a,3c",1,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"4a,4b",1,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"4a,5a",6,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"4a,5b,5c",2,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),4b,5,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),4c,2,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),4d,5,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,L tech(pitch)(perf),5a,2,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"5a,5b",3,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),5b,5,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"5b,5a",1,documented,All atomic values occur in an embedded definition.
+performance,L tech(pitch)(perf),"8a,2",1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+performance,R finger,0,309,unresolved,Contains 0 or another value outside the documented rule.
+performance,R finger,"0,0",3,unresolved,Contains 0 or another value outside the documented rule.
+performance,R finger,1,3,partial,Finger digit is documented; direction is absent for at least one token.
+performance,R finger,1a,7,documented,Compositional digit-plus-direction rule.
+performance,R finger,1b,20,documented,Compositional digit-plus-direction rule.
+performance,R finger,"1b,3a",1,documented,Compositional digit-plus-direction rule.
+performance,R finger,2a,151,documented,Compositional digit-plus-direction rule.
+performance,R finger,"2a,3a,4a",6,documented,Compositional digit-plus-direction rule.
+performance,R finger,2b,756,documented,Compositional digit-plus-direction rule.
+performance,R finger,"2b,3a",4,documented,Compositional digit-plus-direction rule.
+performance,R finger,"2b,3b,4b",1,documented,Compositional digit-plus-direction rule.
+performance,R finger,3a,658,documented,Compositional digit-plus-direction rule.
+performance,R finger,"3a,1b",18,documented,Compositional digit-plus-direction rule.
+performance,R finger,"3a,2b",115,documented,Compositional digit-plus-direction rule.
+performance,R finger,3b,83,documented,Compositional digit-plus-direction rule.
+performance,R finger,"3b,1a",6,documented,Compositional digit-plus-direction rule.
+performance,R finger,"3b,2a",4,documented,Compositional digit-plus-direction rule.
+performance,R finger,4a,108,documented,Compositional digit-plus-direction rule.
+performance,R finger,"4a,2b",41,documented,Compositional digit-plus-direction rule.
+performance,R finger,4b,50,documented,Compositional digit-plus-direction rule.
+performance,R tech,0,278,unresolved,No embedded definition for this value.
+performance,R tech,1,1856,documented,Explicit workbook definition.
+performance,R tech,2,207,documented,Explicit workbook definition.
+performance,R tech,3a,1,unresolved,No embedded definition for this value.
+score,L finger,0,434,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,"0,1",2,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,"0,1,1",10,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,"0,1,1,1",4,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,"0,3,3",4,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,"0,4",10,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,"0,4,4",6,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,"0,4,4,4",2,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,"0,4,4,4,4",1,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,0.1,33,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,0.4,27,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,1,507,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,"1,0",31,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,"1,1",6,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,"1,1,",1,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,"1,1,1",27,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,"1,1,1,1",8,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,"1,1,1,1,1",1,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,1.1,108,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,1.3,3,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,1.4,1,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,2,59,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,3,51,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,"3,0",9,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,"3,3",1,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,"3,3,3",6,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,3.1,3,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,3.3,9,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,4,488,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,"4,0",22,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,"4,4",4,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,"4,4,4",5,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,"4,4,4,4",1,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,"4,4,4,4,4",1,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,4.1,3,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,4.4,32,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,9,1,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L finger,10,8,unresolved,No finger-number mapping occurs in the embedded instructions.
+score,L tech (timbre),"0,3",1,unresolved,"Contains 0, a decimal-like value, or another undefined atom."
+score,L tech (timbre),"0,3,3",2,unresolved,"Contains 0, a decimal-like value, or another undefined atom."
+score,L tech (timbre),1,360,documented,All atomic values occur in an embedded definition.
+score,L tech (timbre),1.1,9,unresolved,"Contains 0, a decimal-like value, or another undefined atom."
+score,L tech (timbre),1.3,1,unresolved,"Contains 0, a decimal-like value, or another undefined atom."
+score,L tech (timbre),2,506,documented,All atomic values occur in an embedded definition.
+score,L tech (timbre),"2,3",20,documented,All atomic values occur in an embedded definition.
+score,L tech (timbre),"2,3,3",16,documented,All atomic values occur in an embedded definition.
+score,L tech (timbre),"2,3,3,3",6,documented,All atomic values occur in an embedded definition.
+score,L tech (timbre),"2,3,3,3,3",1,documented,All atomic values occur in an embedded definition.
+score,L tech (timbre),2.1,1,unresolved,"Contains 0, a decimal-like value, or another undefined atom."
+score,L tech (timbre),2.3,55,unresolved,"Contains 0, a decimal-like value, or another undefined atom."
+score,L tech (timbre),3,564,documented,All atomic values occur in an embedded definition.
+score,L tech (timbre),"3,0",2,unresolved,"Contains 0, a decimal-like value, or another undefined atom."
+score,L tech (timbre),"3,2",59,documented,All atomic values occur in an embedded definition.
+score,L tech (timbre),"3,3",15,documented,All atomic values occur in an embedded definition.
+score,L tech (timbre),"3,3,3",37,documented,All atomic values occur in an embedded definition.
+score,L tech (timbre),"3,3,3,3",8,documented,All atomic values occur in an embedded definition.
+score,L tech (timbre),"3,3,3,3,3",1,documented,All atomic values occur in an embedded definition.
+score,L tech (timbre),3.2,5,unresolved,"Contains 0, a decimal-like value, or another undefined atom."
+score,L tech (timbre),3.3,129,unresolved,"Contains 0, a decimal-like value, or another undefined atom."
+score,L tech (timbre),4,113,documented,All atomic values occur in an embedded definition.
+score,L tech (timbre),"4,3",4,documented,All atomic values occur in an embedded definition.
+score,L tech (timbre),"4,3,3,3",1,documented,All atomic values occur in an embedded definition.
+score,L tech (timbre),"4,3,3,3,3",1,documented,All atomic values occur in an embedded definition.
+score,L tech (timbre),4.3,9,unresolved,"Contains 0, a decimal-like value, or another undefined atom."
+score,L tech(pitch),0,894,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch),"0,1",10,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch),"0,3a",2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch),"0,3b",4,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch),"0,3d",1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch),"0,4a",3,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch),"0,4b",3,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch),"0,5a",3,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch),"0,5b",4,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch),"0,7a",1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch),0.1,34,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch),1,394,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),"1,0",57,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch),2,33,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),"2,0",16,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch),"2,3b",2,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),"2,4b",1,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),"2,5a",1,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),2b,1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch),3a,181,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),"3a,0",9,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch),"3a,2",4,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),"3a,3b",3,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),3b,118,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),"3b,2",2,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),3c,11,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),3d,4,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),3e,4,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),4a,64,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),"4a,0",1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch),"4a,2",12,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),"4a,2,3b,5b",2,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),"4a,3b",2,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),"4a,3c",4,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),"4a,4b",6,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),"4a,5a",1,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),"4a,5b",9,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),4a.3b,1,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),4b,46,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),5a,9,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),5b,10,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),"5b,0",1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch),5c,5,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),5d,2,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),6a,14,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch),6b,2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch),7b,6,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch),7c,3,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch),7e,2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch),7f,1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch),7g,1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch),8b,2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),0,2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),"0,3a",34,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),"0,3a,2,5a",1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),"0,3a,3b,3d",1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),"0,3a,3d",2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),"0,3a,5a",2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),"0,3a,7a",1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),"0,3b",1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),"0,4a",4,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),"0,4a,4d",1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),"0,5a",3,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),"0,6a,6b",1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),0.1,2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),1,61,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"1,0",11,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),"2,0",2,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),"2,1,4b",1,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"2,3b",1,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"2,6a",1,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),3a,17,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"3a,0",17,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),"3a,2",11,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"3a,2,3b",1,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"3a,2,3c",1,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"3a,3b",11,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"3a,3b,2",1,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"3a,3c",1,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"3a,4b",7,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"3a,5a",4,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"3a,5b,0",1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),"3a,6a",1,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"3a,6a,5c",2,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"3a,7a,8b",3,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),"3a,7b",4,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),"3a,7c",1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),"3a,7n",1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),3b,1,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),4a,5,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"4a,2",5,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"4a,2,3b",2,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"4a,3a",20,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"4a,3b",4,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"4a,3b,8b",3,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),"4a,3c",2,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"4a,4b",1,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"4a,5a",4,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"4a,5b,5c",2,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),4b,3,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),4c,2,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),4d,3,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,L tech(pitch)(perf),5a,2,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"5a,5b",3,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),5b,5,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"5b,5a",1,documented,All atomic values occur in an embedded definition.
+score,L tech(pitch)(perf),"8a,2",1,unresolved,Contains an atom absent from the embedded pitch-technique definitions.
+score,R finger,0,240,unresolved,Contains 0 or another value outside the documented rule.
+score,R finger,"0,0",3,unresolved,Contains 0 or another value outside the documented rule.
+score,R finger,1,3,partial,Finger digit is documented; direction is absent for at least one token.
+score,R finger,1a,5,documented,Compositional digit-plus-direction rule.
+score,R finger,1b,13,documented,Compositional digit-plus-direction rule.
+score,R finger,"1b,3a",1,documented,Compositional digit-plus-direction rule.
+score,R finger,2a,137,documented,Compositional digit-plus-direction rule.
+score,R finger,"2a,3a,4a",4,documented,Compositional digit-plus-direction rule.
+score,R finger,2b,630,documented,Compositional digit-plus-direction rule.
+score,R finger,"2b,3a",2,documented,Compositional digit-plus-direction rule.
+score,R finger,"2b,3b,4b",1,documented,Compositional digit-plus-direction rule.
+score,R finger,3a,536,documented,Compositional digit-plus-direction rule.
+score,R finger,"3a,1b",11,documented,Compositional digit-plus-direction rule.
+score,R finger,"3a,2b",91,documented,Compositional digit-plus-direction rule.
+score,R finger,3b,56,documented,Compositional digit-plus-direction rule.
+score,R finger,"3b,1a",4,documented,Compositional digit-plus-direction rule.
+score,R finger,"3b,2a",4,documented,Compositional digit-plus-direction rule.
+score,R finger,4a,108,documented,Compositional digit-plus-direction rule.
+score,R finger,"4a,2b",41,documented,Compositional digit-plus-direction rule.
+score,R finger,4b,39,documented,Compositional digit-plus-direction rule.
+score,R tech,0,214,unresolved,No embedded definition for this value.
+score,R tech,1,1545,documented,Explicit workbook definition.
+score,R tech,2,167,documented,Explicit workbook definition.
+score,R tech,3a,1,unresolved,No embedded definition for this value.

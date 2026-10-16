@@ -1,0 +1,8 @@
+{
+  "note": "Copy to config/local_paths.json, replace placeholders locally, and keep that file out of version control.",
+  "gq39_annotation_root": "REPLACE_WITH_LOCAL_PATH/Guqin-dataset/score_annotation",
+  "guqin_dataset_musicxml_root": "REPLACE_WITH_LOCAL_PATH/Guqin-dataset/MusicXML",
+  "guqinmm_root": "REPLACE_WITH_LOCAL_PATH/guqinMM",
+  "kuiscima_root": "REPLACE_WITH_LOCAL_PATH/KuiSCIMA",
+  "restricted_work_root": "data/interim"
+}

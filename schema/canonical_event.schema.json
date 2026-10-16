@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/lianni0125-hub/guqin-representation-benchmark/main/schema/canonical_event.schema.json",
+  "title": "Canonical guqin representation event",
+  "description": "Public interchange shape for locally built or synthetic event rows. This schema does not license or redistribute upstream content.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["event_id", "source_id", "piece_group", "sequence_id", "event_index", "context", "predictors", "target_raw", "target_class"],
+  "properties": {
+    "event_id": {"type": "string", "minLength": 1},
+    "source_id": {"type": "string", "minLength": 1},
+    "piece_group": {"type": "string", "minLength": 1},
+    "sequence_id": {"type": "string", "minLength": 1},
+    "event_index": {"type": "integer", "minimum": 0},
+    "context": {"type": "object", "additionalProperties": false, "required": ["mode", "tuning"], "properties": {"mode": {"type": ["string", "null"]}, "tuning": {"type": ["string", "null"]}}},
+    "predictors": {
+      "type": "object", "additionalProperties": false,
+      "required": ["score_onset", "degree", "range", "string", "position", "right_finger_raw", "left_pitch_tech_raw", "left_timbre_tech_raw"],
+      "properties": {
+        "score_onset": {"type": ["string", "number", "null"]}, "degree": {"type": ["string", "number", "null"]},
+        "range": {"type": ["string", "number", "null"]}, "string": {"type": ["string", "number", "null"]},
+        "position": {"type": ["string", "number", "null"]}, "right_finger_raw": {"type": ["string", "null"]},
+        "left_pitch_tech_raw": {"type": ["string", "null"]}, "left_timbre_tech_raw": {"type": ["string", "null"]}
+      }
+    },
+    "target_raw": {"type": ["string", "null"]},
+    "target_class": {"type": "string", "minLength": 1}
+  }
+}

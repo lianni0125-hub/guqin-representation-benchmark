@@ -1,0 +1,31 @@
+field,raw_code,author_label,project_supercategory,evidence_status,scope_note
+R finger,[1-5]a,手指数字1-5 + 往内,inward_pluck,documented_compositional,"All 71 workbooks repeat the rule; exact digit-to-finger-name mapping is not supplied."
+R finger,[1-5]b,手指数字1-5 + 往外,outward_pluck,documented_compositional,"All 71 workbooks repeat the rule; exact digit-to-finger-name mapping is not supplied."
+R tech,1,單音,single_note_attack,documented_explicit,"Explicit in 9 workbooks; the remaining 62 give only a generic note for this field."
+R tech,2,撮或潑剌等等之類的雙音,multi_note_attack,documented_broad,"A grouped category, not an identification of a particular named technique."
+L tech(pitch),1,直按,stationary_press,documented_explicit,Repeated in all 71 workbooks.
+L tech(pitch),2,持續波動（吟猱）,continuous_oscillation,documented_broad,"Does not support separating 吟 from 猱."
+L tech(pitch),3,往上,upward_motion,documented_supercategory,Do not infer a more specific technique.
+L tech(pitch),3a,綽（本位音之前）,upward_pre_target,documented_explicit,Repeated in all 71 workbooks.
+L tech(pitch),3b,上／一上（本位音之後）,upward_post_target,documented_explicit,Wording differs between workbook variants.
+L tech(pitch),3c,二上（本位音之後）,upward_post_target_repeated,documented_variant,Explicit in 6 workbooks; 3 more contain typo `3:c`.
+L tech(pitch),3d,一上（空絃之後）,upward_after_open_string,documented_variant,Explicit in 6 workbooks.
+L tech(pitch),3e,二上（空絃之後）,upward_after_open_string_repeated,documented_variant,Explicit in 6 workbooks.
+L tech(pitch),4,往下,downward_motion,documented_supercategory,Do not infer a more specific technique.
+L tech(pitch),4a,注（本位音之前）,downward_pre_target,documented_explicit,Repeated in all 71 workbooks.
+L tech(pitch),4b,下／一下（本位音之後）,downward_post_target,documented_explicit,Wording differs between workbook variants.
+L tech(pitch),4c,二下（本位音之後）,downward_post_target_repeated,documented_variant,Explicit in 9 workbooks.
+L tech(pitch),5,往上再回到原位,up_return,documented_supercategory,Do not infer a more specific technique.
+L tech(pitch),5a,進復（小三度／大二度）,up_return,documented_explicit,Repeated in all 71 workbooks.
+L tech(pitch),5b,撞（音程可能較窄、速度較快）,narrow_fast_up_return,documented_explicit,Repeated in all 71 workbooks.
+L tech(pitch),5c,豆（速度更快）,very_fast_up_return,documented_explicit,Repeated in all 71 workbooks.
+L tech(pitch),5d,滸上復（完全四度）,large_interval_up_return,documented_variant,Explicit in 9 workbooks; retain source spelling.
+L tech(pitch),6,往下再回到原位,down_return,documented_supercategory,Do not infer a more specific technique.
+L tech(pitch),6a,退復（小三度／大二度）,down_return,documented_explicit,Repeated in all 71 workbooks.
+L tech (timbre),1,泛音,harmonic,documented_explicit,Repeated in all 71 workbooks.
+L tech (timbre),2,散音,open_string,documented_explicit,Repeated in all 71 workbooks.
+L tech (timbre),3,一般按音,ordinary_stopped,documented_variant,Explicit in 9 workbooks only.
+L tech (timbre),4,特殊按音,special_stopped,documented_variant,Explicit in 9 workbooks only.
+L finger,*,未提供数字到手指的映射,unresolved,undocumented,"Preserve raw value; no anatomical finger-name interpretation."
+R tech,0／3a,未定义,unresolved,undocumented,Preserve raw value.
+L tech(pitch),0／2b／6b／7*／8*／4d,未定义,unresolved,undocumented,Preserve raw value and bundled sequence.

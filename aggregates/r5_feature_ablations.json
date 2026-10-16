@@ -1,0 +1,78 @@
+{
+  "seed": 20261016,
+  "bootstrap_draws": 10000,
+  "variants": {
+    "full_R2": {
+      "token_mean_nll": 0.23244637006600719,
+      "piece_macro_nll": 0.22219177772075477,
+      "median_encoded_columns": 106.0,
+      "median_unk_rate": 0.0013785497656465398
+    },
+    "drop_rh_direction": {
+      "token_mean_nll": 0.25893185024420856,
+      "piece_macro_nll": 0.25087307316726953,
+      "median_encoded_columns": 88.0,
+      "median_unk_rate": 0.0014179369018078695
+    },
+    "drop_lh_pitch_motion": {
+      "token_mean_nll": 0.22727217759774881,
+      "piece_macro_nll": 0.21802228975315704,
+      "median_encoded_columns": 69.0,
+      "median_unk_rate": 0.0
+    },
+    "drop_lh_timbre": {
+      "token_mean_nll": 0.2015961685614777,
+      "piece_macro_nll": 0.20079087782575528,
+      "median_encoded_columns": 69.0,
+      "median_unk_rate": 0.0
+    },
+    "rh_direction_only_exploratory": {
+      "token_mean_nll": 0.21186154648387667,
+      "piece_macro_nll": 0.20745943799171976,
+      "median_encoded_columns": 31.0,
+      "median_unk_rate": 0.0
+    }
+  },
+  "comparisons": {
+    "drop_rh_minus_full": {
+      "mean_piece_delta_nll": 0.0286812954465148,
+      "piece_bootstrap_95_interval": [
+        0.009715133470064781,
+        0.051645222514146896
+      ],
+      "pieces_favouring_left": 1
+    },
+    "drop_lh_pitch_minus_full": {
+      "mean_piece_delta_nll": -0.004169487967597725,
+      "piece_bootstrap_95_interval": [
+        -0.010606936584934105,
+        0.0012928708421815383
+      ],
+      "pieces_favouring_left": 6
+    },
+    "drop_lh_timbre_minus_full": {
+      "mean_piece_delta_nll": -0.02140089989499953,
+      "piece_bootstrap_95_interval": [
+        -0.04210968315546386,
+        -0.0022545108685237706
+      ],
+      "pieces_favouring_left": 8
+    },
+    "rh_only_minus_R5": {
+      "mean_piece_delta_nll": -0.08151245081687432,
+      "piece_bootstrap_95_interval": [
+        -0.14257731721740213,
+        -0.028847825983170566
+      ],
+      "pieces_favouring_left": 9
+    },
+    "drop_lh_timbre_minus_rh_only": {
+      "mean_piece_delta_nll": -0.006668560165964538,
+      "piece_bootstrap_95_interval": [
+        -0.016454971038333436,
+        0.0028731003886701702
+      ],
+      "pieces_favouring_left": 7
+    }
+  }
+}

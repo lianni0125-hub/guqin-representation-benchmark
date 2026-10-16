@@ -1,0 +1,524 @@
+{
+  "manifest_version": "research-results-v1",
+  "frozen_at": "2026-10-16",
+  "research_gate": "approved; Research closed at E33 with PASS WITH NARROWED CLAIMS",
+  "input_manifest_sha256": "9948e364050944590a6c64557cdc36ba016ecf09ea1b64d51b526b422ec4ca2c",
+  "runtime": {
+    "python": "3.10.20",
+    "numpy": "2.2.6",
+    "scikit_learn": "1.7.2",
+    "scipy": "1.15.3",
+    "seed": 20261016
+  },
+  "canonical_primary": {
+    "targets": [
+      "T1 six-way performed LH motion",
+      "T2 binary score RH attack"
+    ],
+    "representations": [
+      "R0",
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R4M",
+      "R5"
+    ],
+    "note": "Five-way T1 return merge and T2 field-drop models are post-primary sensitivity/diagnostic outputs and never replace the frozen primary runs."
+  },
+  "release_rule": "Only entries marked public_* may enter a public release; row-level predictions and source-locatable error cases remain local.",
+  "result_files": [
+    {
+      "path": "results/baseline_v1/T1_R0_predictions.jsonl",
+      "bytes": 962273,
+      "sha256": "6895815b3e315695bdc2b024c83d5b5ffd146336b5ac9bb43d96c51c04d0ba74",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T1_R0_summary.json",
+      "bytes": 11178,
+      "sha256": "9c3429463240245a0869de15b7a6aff54210cd6435b3d96ae92b35696364f49c",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T1_R1_predictions.jsonl",
+      "bytes": 962901,
+      "sha256": "c246f73c2f687454a6ac7f3b93afd1698d869168924c8fb22a1a853680f24ea8",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T1_R1_summary.json",
+      "bytes": 11210,
+      "sha256": "8fbf20988c3069e7696714fa993c4c23e68fb6240f857937c03079e91781059a",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T1_R2_merge_returns_predictions.jsonl",
+      "bytes": 887250,
+      "sha256": "2c61682059483a0c67da52ff349a9c5f95afe9e575c3e5922cf84c89784f8675",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T1_R2_merge_returns_summary.json",
+      "bytes": 10943,
+      "sha256": "a6a635ecbca9270e14a7fdb36777ae1c2d1945c8d34b81aee66cb631fc03243b",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T1_R2_predictions.jsonl",
+      "bytes": 962871,
+      "sha256": "932e902819ec7843d598fe8b90d5963e36eb34e33903d08d81ae436277aab4c1",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T1_R2_summary.json",
+      "bytes": 11252,
+      "sha256": "8d5f728f958b671209d6f1049d55754b55d52560dbb07273689e57b72c4e3149",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T1_R3_predictions.jsonl",
+      "bytes": 962374,
+      "sha256": "9df54d28166956436937629dd045fc4c33a1818d5116dc8b517991b222c1fb8e",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T1_R3_summary.json",
+      "bytes": 11207,
+      "sha256": "a200845a90a9187e95b1b668e56b8cea431b22c06c7ab3c50b5e600fd0df2c4a",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T1_R4M_merge_returns_predictions.jsonl",
+      "bytes": 887464,
+      "sha256": "981c08628d504f40fde376c017e9949f7429a9cfd301b3f13c5df3b831b5492a",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T1_R4M_merge_returns_summary.json",
+      "bytes": 10899,
+      "sha256": "bc9b36ff9edcc14beaa2b8b60659600763db2020debc0c2f29bd869126df3716",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T1_R4M_predictions.jsonl",
+      "bytes": 963167,
+      "sha256": "02999737484483be0e33d55f48e21fb40882de6e490efe588d85c38cee66f236",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T1_R4M_summary.json",
+      "bytes": 11312,
+      "sha256": "8df53337a42ae54286593df6dd1bbfe45a1c6458a6ff4f71e5131cba78d21405",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T1_R4_predictions.jsonl",
+      "bytes": 963453,
+      "sha256": "0a408f85edae9cb3cf312bebf2eb0c42ae9921178ca947cac01a5ca2d991aebb",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T1_R4_reproduce_predictions.jsonl",
+      "bytes": 963453,
+      "sha256": "0a408f85edae9cb3cf312bebf2eb0c42ae9921178ca947cac01a5ca2d991aebb",
+      "role": "deterministic_rerun_audit",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T1_R4_reproduce_summary.json",
+      "bytes": 11309,
+      "sha256": "bf6a7f6daafe1fefe26552cd0d9306dcff9a1c17f5b1fe30f860d1e41d077e0f",
+      "role": "deterministic_rerun_audit",
+      "release_tier": "restricted_local_audit"
+    },
+    {
+      "path": "results/baseline_v1/T1_R4_summary.json",
+      "bytes": 11251,
+      "sha256": "d66c06d70ac89267ece85f17277a1ebc8ea7b334af4a88e8b8a5aa9604ad4f1f",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T1_R5_merge_returns_predictions.jsonl",
+      "bytes": 887520,
+      "sha256": "9c34376a162190aa3218ca9e31baf899ff42ecc00bd421f4fb0e1681e937e052",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T1_R5_merge_returns_summary.json",
+      "bytes": 10872,
+      "sha256": "b8750aaeb4039badaa56e2b340578a36aa655cdd8b1b979e2da13cf50bc03747",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T1_R5_predictions.jsonl",
+      "bytes": 962136,
+      "sha256": "624dacd7e100c3e240a2416df9b26ffa23f2642ea8ce3912520b21fd3607477c",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T1_R5_summary.json",
+      "bytes": 11203,
+      "sha256": "2440e2e26ca1d46ed79507724fae3a2bdb240f5e96fd0638abcf1f74ed3ca7db",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T2_R0_predictions.jsonl",
+      "bytes": 460040,
+      "sha256": "65bec71bf3c67e248cdac169cf0130470e8db770b8bc3e77dc80098b3378087c",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T2_R0_summary.json",
+      "bytes": 9141,
+      "sha256": "2dfa267e2713c9fe6ce260594587df6e57d5416f019d0824eeec24e40eea1029",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T2_R1_predictions.jsonl",
+      "bytes": 460537,
+      "sha256": "3507a285581d56e1c256995b011c21d611b2eb7affb019d98c1b50d9989647c8",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T2_R1_summary.json",
+      "bytes": 9228,
+      "sha256": "80c6662a25a698346c2bdc4c8594434affd48c3dae67b233f55ee6e1e402aa71",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T2_R2_drop_lh_pitch_motion_predictions.jsonl",
+      "bytes": 460355,
+      "sha256": "4449b6f95a9089c0aa3771067f6f9ed84a490fe7d7a6e2fdc3427bc8cee6862b",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T2_R2_drop_lh_pitch_motion_summary.json",
+      "bytes": 9284,
+      "sha256": "e02432ada39f223f7c63443854828cad24bf354d79eb2f0aee40c9d6a56af56e",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T2_R2_drop_lh_timbre_predictions.jsonl",
+      "bytes": 461057,
+      "sha256": "591ef3cb08484037318a7e4f61a78656ea9d97bff66805249c59d290613da236",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T2_R2_drop_lh_timbre_summary.json",
+      "bytes": 9301,
+      "sha256": "eeba75f2abac88da3c965e1cab255d11d1ef93b5c1ea5a9255f4a069260ed6b5",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T2_R2_drop_rh_direction_predictions.jsonl",
+      "bytes": 460492,
+      "sha256": "be176b899a2842b2085c486a1bb6c0961facbdc5f38c4dbce8a2a05e37c1c9f4",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T2_R2_drop_rh_direction_summary.json",
+      "bytes": 9236,
+      "sha256": "5970bb3bae6dfa0d9c8a328bbf7e930cf4fc5cc16586f563cd90d05306508fe4",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T2_R2_exclude_yi_predictions.jsonl",
+      "bytes": 351980,
+      "sha256": "6f535c8c2cdcd08aafbc8e627dc21db85240a501655d970625b2576fe6ae3084",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T2_R2_exclude_yi_summary.json",
+      "bytes": 8241,
+      "sha256": "1e5dd13eb4657fb80a72dcd388ffff1dd5eaf3040edb4c4f9976e08c20ca9b33",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T2_R2_opaque_predictions.jsonl",
+      "bytes": 460447,
+      "sha256": "96e409f9709369f93497a64262d2153e06071997d898c94510c56787cc80b43e",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T2_R2_opaque_summary.json",
+      "bytes": 9230,
+      "sha256": "f894e8abf92d08d81b05d08049b248663925e04f1b1a5fb75ce0b93207fbdf23",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T2_R2_predictions.jsonl",
+      "bytes": 460483,
+      "sha256": "27c501833a21689738ce12da28fcbe1972e32aea9175dd2d1e24cdaa57bdbe67",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T2_R2_rh_direction_only_predictions.jsonl",
+      "bytes": 461078,
+      "sha256": "d93ee4eabbcc1db08b3f2fa143abf1f04d87e4c46d9c6a1582789c794be34cd6",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T2_R2_rh_direction_only_summary.json",
+      "bytes": 9267,
+      "sha256": "7d11d73f274eb6e61fc9cb7cbef481bbf86770ce53ee3dac463f659178c1b775",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T2_R2_summary.json",
+      "bytes": 9184,
+      "sha256": "db46d1b838c948a06eb50e5cf1ec4f955f8676f1acab706861a5733d89a450c5",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T2_R3_predictions.jsonl",
+      "bytes": 460050,
+      "sha256": "0c6981825b3c4f6c25fd0f88fb36ecba4ff040d5e9f026cffc92e719535bd794",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T2_R3_summary.json",
+      "bytes": 9200,
+      "sha256": "7fbd85bdd0b159b724ebe90f7280ebb9a3db1be1d3fe239e2e115fda8ba897ce",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T2_R4M_predictions.jsonl",
+      "bytes": 460846,
+      "sha256": "c5d6560943a225c800e128df543317ef3b028392393dda4e83ad358ec03f6e9b",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T2_R4M_summary.json",
+      "bytes": 9282,
+      "sha256": "1ea983f371a3bfe7265c2a5973cd3043a7139d4371e1f2f4f15f111e4a069d6e",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T2_R4_exclude_yi_predictions.jsonl",
+      "bytes": 352243,
+      "sha256": "838d8f0eb88a129986d3392861e41573fdf4ec85c4c65a20e9606c87123d14ca",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T2_R4_exclude_yi_summary.json",
+      "bytes": 8399,
+      "sha256": "bd76555e8cdde57b07f50fb076b94013a716e7a55ecbdd203b6547a58e8c806b",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T2_R4_opaque_predictions.jsonl",
+      "bytes": 460687,
+      "sha256": "9814d07cf65518631f585fe5deffe7e1b495699c17c377a7b8eaf04498e5d46e",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T2_R4_opaque_summary.json",
+      "bytes": 9342,
+      "sha256": "4e378c3123d5c7c4a4ef77b0625b735f5291be1d29022feec007e56efe74ea61",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T2_R4_predictions.jsonl",
+      "bytes": 460845,
+      "sha256": "f9d7ea17b8db2609e8ef0cf23b601c9c714765e91e8e92e157116f448f71b66f",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T2_R4_reproduce_predictions.jsonl",
+      "bytes": 460845,
+      "sha256": "f9d7ea17b8db2609e8ef0cf23b601c9c714765e91e8e92e157116f448f71b66f",
+      "role": "deterministic_rerun_audit",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T2_R4_reproduce_summary.json",
+      "bytes": 9335,
+      "sha256": "72bc2998eda6e21867567297f936e12c1ad52e7e53bb5ec4f4bd2ca95f19a04c",
+      "role": "deterministic_rerun_audit",
+      "release_tier": "restricted_local_audit"
+    },
+    {
+      "path": "results/baseline_v1/T2_R4_summary.json",
+      "bytes": 9277,
+      "sha256": "267760e06c3b091d3a26a0121c60d8485682acfe238d7b630f0783aa60636d6c",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/T2_R5_predictions.jsonl",
+      "bytes": 459657,
+      "sha256": "ebdc93893fb55990015c25fd15c84c86b090498fb1e30cd2188bd52d21bc276e",
+      "role": "row_level_heldout_predictions",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/baseline_v1/T2_R5_summary.json",
+      "bytes": 8894,
+      "sha256": "66cd02fe3e0b53bbfeeaaf2d0f16f123f6e5fc56b09fc6dfed9861b56ac9dcde",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/r3_comparison.json",
+      "bytes": 16101,
+      "sha256": "d0aa39c757463a727ab1681158dc8966c44c70f4b26a74b24db6fb24badea11d",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/r4_robustness.json",
+      "bytes": 10883,
+      "sha256": "b077c8086d3d1371f931ec7eb326f0623d7dfc64b2bc76336ef4392f6b44f239",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/baseline_v1/r5_feature_ablations.json",
+      "bytes": 2333,
+      "sha256": "12e7fc30807a28aeb4a650cfe9eca1bad481b82cdd4b49a3093be48c2b1125e4",
+      "role": "aggregate_model_result",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/error_analysis_v1/T1_error_audit.json",
+      "bytes": 15271,
+      "sha256": "1fd3dc9bda812974ebbce19bd07eac19640faf56a8d73198a2d6cd1731c5e12b",
+      "role": "aggregate_error_audit",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/error_analysis_v1/T1_worst_R2_events.jsonl",
+      "bytes": 25223,
+      "sha256": "ff1b11f7f5b19ebd99c0c879cddd3947205aedea87f5787713b22570d86729e0",
+      "role": "source_locatable_error_cases",
+      "release_tier": "restricted_local_only"
+    },
+    {
+      "path": "results/error_analysis_v1/T2_error_audit.json",
+      "bytes": 8920,
+      "sha256": "f840a13046f08a24fbdf04bac047a5108e5e1ea5dc1dfe6e6f42995992f5e935",
+      "role": "aggregate_error_audit",
+      "release_tier": "public_nonreconstructive_aggregate"
+    },
+    {
+      "path": "results/error_analysis_v1/T2_worst_R2_events.jsonl",
+      "bytes": 25377,
+      "sha256": "fb72482578f9b839d985c800b660257ffe7f7060c83e76b99273d4a8f0a10da5",
+      "role": "source_locatable_error_cases",
+      "release_tier": "restricted_local_only"
+    }
+  ],
+  "code_and_spec_files": [
+    {
+      "path": "src/research_metrics.py",
+      "bytes": 4789,
+      "sha256": "4b7384cacafb5acd92a8c5a5b8383f355cacc0c13790438d81084ee6027bb8c5",
+      "role": "analysis_code_or_frozen_specification",
+      "release_tier": "public_original_project_file"
+    },
+    {
+      "path": "src/run_baseline_models.py",
+      "bytes": 17818,
+      "sha256": "e0039317eb172a2f0a0c1fe75655988cf0bd153c6715d0be084660925ce06710",
+      "role": "analysis_code_or_frozen_specification",
+      "release_tier": "public_original_project_file"
+    },
+    {
+      "path": "src/summarize_r3_results.py",
+      "bytes": 4969,
+      "sha256": "454ee402fc74bc449ee7291ef4bf5a3471eafe4ab1ae641eafaccf2f66b3a66f",
+      "role": "analysis_code_or_frozen_specification",
+      "release_tier": "public_original_project_file"
+    },
+    {
+      "path": "src/summarize_r4_robustness.py",
+      "bytes": 2992,
+      "sha256": "968118d9aca59f4243e74138d60205dba3fc8ee05ad5f174af1027ed02a41100",
+      "role": "analysis_code_or_frozen_specification",
+      "release_tier": "public_original_project_file"
+    },
+    {
+      "path": "src/analyze_r5_errors.py",
+      "bytes": 5839,
+      "sha256": "c5797da896691fd79d16871d8d21ea912e94cad4bd594030cf90882b9e59b19a",
+      "role": "analysis_code_or_frozen_specification",
+      "release_tier": "public_original_project_file"
+    },
+    {
+      "path": "src/summarize_r5_feature_ablations.py",
+      "bytes": 2638,
+      "sha256": "b21d5a22e9969425b23a472a402bfd282b4afcdda6c2e28755e5c130056d7e98",
+      "role": "analysis_code_or_frozen_specification",
+      "release_tier": "public_original_project_file"
+    },
+    {
+      "path": "experiments/experiment_registry_v0_1.json",
+      "bytes": 6926,
+      "sha256": "5aaad085fecb300ed03f9a30a035e616012b76bde987ad71111d8cb5340c4b45",
+      "role": "analysis_code_or_frozen_specification",
+      "release_tier": "public_original_project_file"
+    },
+    {
+      "path": "experiments/encoder_spec_v0_1.json",
+      "bytes": 1549,
+      "sha256": "662f9df34ab1732e2d319d9669ef42611c2de05393546d69f2823db3c727c411",
+      "role": "analysis_code_or_frozen_specification",
+      "release_tier": "public_original_project_file"
+    },
+    {
+      "path": "experiments/post_primary_t1_return_sensitivity_v0_1.json",
+      "bytes": 1283,
+      "sha256": "7e05183ff547a023fd9e050996bcb57d2cc8b651b3855ce65faf39a79a5fdebb",
+      "role": "analysis_code_or_frozen_specification",
+      "release_tier": "public_original_project_file"
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "target": "T2",
+  "representation": "R2",
+  "n": 1309,
+  "outer_folds": 9,
+  "token_mean_nll": 0.29427671098464137,
+  "piece_macro_nll": 0.26951033133796126,
+  "per_piece_nll": {
+    "ciou": 0.13275342709852372,
+    "feng": 0.09331178862555518,
+    "gu": 0.10431542458982541,
+    "guan": 0.4021491326022866,
+    "jiou": 0.3750826334963197,
+    "liang": 0.1675487964471563,
+    "siang": 0.04214648866039198,
+    "yang": 0.5169359683680426,
+    "yu": 0.5913493221535503
+  },
+  "folds": [
+    {
+      "piece_group": "ciou",
+      "n": 71,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 0.31073907186243654,
+        "0.1": 0.2679816389860784,
+        "1.0": 0.3106606412573935,
+        "10.0": 0.46482551786138127
+      },
+      "nll": 0.13275342709852384,
+      "brier": 0.06579820863571807,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4892086330935252,
+      "per_class_recall": {
+        "single_note_attack": 1.0,
+        "multi_note_attack": 0.0
+      },
+      "per_class_support": {
+        "single_note_attack": 68,
+        "multi_note_attack": 3
+      },
+      "encoded_feature_columns": 99,
+      "interaction_terms": 0,
+      "fitted_coefficients": 100,
+      "unk_rate": 0.0,
+      "multi_note_attack_average_precision": 0.46428571428571425
+    },
+    {
+      "piece_group": "feng",
+      "n": 90,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 0.3122834771612886,
+        "0.1": 0.2649277105987704,
+        "1.0": 0.2943746437606001,
+        "10.0": 0.40246953036127175
+      },
+      "nll": 0.09331178862555516,
+      "brier": 0.022147139586522476,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 0.5,
+      "per_class_recall": {
+        "single_note_attack": 1.0,
+        "multi_note_attack": null
+      },
+      "per_class_support": {
+        "single_note_attack": 90,
+        "multi_note_attack": 0
+      },
+      "encoded_feature_columns": 96,
+      "interaction_terms": 0,
+      "fitted_coefficients": 97,
+      "unk_rate": 0.11358024691358025,
+      "multi_note_attack_average_precision": null
+    },
+    {
+      "piece_group": "gu",
+      "n": 69,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 0.3129454297484192,
+        "0.1": 0.27092035905253853,
+        "1.0": 0.3198149668270434,
+        "10.0": 0.47481967243004497
+      },
+      "nll": 0.10431542458982543,
+      "brier": 0.050762679139391365,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.49264705882352944,
+      "per_class_recall": {
+        "single_note_attack": 1.0,
+        "multi_note_attack": 0.0
+      },
+      "per_class_support": {
+        "single_note_attack": 67,
+        "multi_note_attack": 2
+      },
+      "encoded_feature_columns": 97,
+      "interaction_terms": 0,
+      "fitted_coefficients": 98,
+      "unk_rate": 0.00322061191626409,
+      "multi_note_attack_average_precision": 0.375
+    },
+    {
+      "piece_group": "guan",
+      "n": 82,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 0.28513990955173873,
+        "0.1": 0.24077047768786095,
+        "1.0": 0.27816364531769666,
+        "10.0": 0.40184670146075874
+      },
+      "nll": 0.40214913260228663,
+      "brier": 0.236418873116381,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4605263157894737,
+      "per_class_recall": {
+        "single_note_attack": 1.0,
+        "multi_note_attack": 0.0
+      },
+      "per_class_support": {
+        "single_note_attack": 70,
+        "multi_note_attack": 12
+      },
+      "encoded_feature_columns": 99,
+      "interaction_terms": 0,
+      "fitted_coefficients": 100,
+      "unk_rate": 0.0,
+      "multi_note_attack_average_precision": 0.37745368931774875
+    },
+    {
+      "piece_group": "jiou",
+      "n": 331,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 0.2815350194954466,
+        "0.1": 0.21584444459803453,
+        "1.0": 0.22630103884348007,
+        "10.0": 0.3444662421792303
+      },
+      "nll": 0.37508263349631965,
+      "brier": 0.22966645663969398,
+      "balanced_accuracy": 0.4948630136986301,
+      "macro_f1": 0.4661290322580645,
+      "per_class_recall": {
+        "single_note_attack": 0.9897260273972602,
+        "multi_note_attack": 0.0
+      },
+      "per_class_support": {
+        "single_note_attack": 292,
+        "multi_note_attack": 39
+      },
+      "encoded_feature_columns": 99,
+      "interaction_terms": 0,
+      "fitted_coefficients": 100,
+      "unk_rate": 0.0,
+      "multi_note_attack_average_precision": 0.19231295085911848
+    },
+    {
+      "piece_group": "liang",
+      "n": 130,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 0.30653606894284313,
+        "0.1": 0.26475419803556977,
+        "1.0": 0.31791646194065143,
+        "10.0": 0.4858598773341152
+      },
+      "nll": 0.16754879644715634,
+      "brier": 0.08344329542634951,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.48616600790513836,
+      "per_class_recall": {
+        "single_note_attack": 1.0,
+        "multi_note_attack": 0.0
+      },
+      "per_class_support": {
+        "single_note_attack": 123,
+        "multi_note_attack": 7
+      },
+      "encoded_feature_columns": 95,
+      "interaction_terms": 0,
+      "fitted_coefficients": 96,
+      "unk_rate": 0.006837606837606838,
+      "multi_note_attack_average_precision": 0.5297920853694617
+    },
+    {
+      "piece_group": "siang",
+      "n": 214,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 0.32028253594053885,
+        "0.1": 0.2798621899731736,
+        "1.0": 0.3288909546825075,
+        "10.0": 0.49734294586334515
+      },
+      "nll": 0.04214648866039195,
+      "brier": 0.010019601592676472,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.49882903981264637,
+      "per_class_recall": {
+        "single_note_attack": 1.0,
+        "multi_note_attack": 0.0
+      },
+      "per_class_support": {
+        "single_note_attack": 213,
+        "multi_note_attack": 1
+      },
+      "encoded_feature_columns": 97,
+      "interaction_terms": 0,
+      "fitted_coefficients": 98,
+      "unk_rate": 0.0010384215991692627,
+      "multi_note_attack_average_precision": 1.0
+    },
+    {
+      "piece_group": "yang",
+      "n": 244,
+      "selected_C": 0.01,
+      "inner_piece_macro_nll": {
+        "0.01": 0.30547298200659945,
+        "0.1": 0.3087183979727552,
+        "1.0": 0.36883445166553486,
+        "10.0": 0.555258891293093
+      },
+      "nll": 0.5169359683680426,
+      "brier": 0.34285003039676554,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4377880184331797,
+      "per_class_recall": {
+        "single_note_attack": 1.0,
+        "multi_note_attack": 0.0
+      },
+      "per_class_support": {
+        "single_note_attack": 190,
+        "multi_note_attack": 54
+      },
+      "encoded_feature_columns": 98,
+      "interaction_terms": 0,
+      "fitted_coefficients": 99,
+      "unk_rate": 0.1111111111111111,
+      "multi_note_attack_average_precision": 0.8168986499296153
+    },
+    {
+      "piece_group": "yu",
+      "n": 78,
+      "selected_C": 0.1,
+      "inner_piece_macro_nll": {
+        "0.01": 0.26889660396789605,
+        "0.1": 0.2550982802997067,
+        "1.0": 0.2822651046462737,
+        "10.0": 0.3765777676133775
+      },
+      "nll": 0.5913493221535504,
+      "brier": 0.39014473078406947,
+      "balanced_accuracy": 0.5833333333333334,
+      "macro_f1": 0.5647321428571428,
+      "per_class_recall": {
+        "single_note_attack": 1.0,
+        "multi_note_attack": 0.16666666666666666
+      },
+      "per_class_support": {
+        "single_note_attack": 54,
+        "multi_note_attack": 24
+      },
+      "encoded_feature_columns": 95,
+      "interaction_terms": 0,
+      "fitted_coefficients": 96,
+      "unk_rate": 0.005698005698005698,
+      "multi_note_attack_average_precision": 0.7543077815663155
+    }
+  ],
+  "seed": 20261016,
+  "opaque_unresolved": false,
+  "excluded_piece": "yi",
+  "status": "exploratory_grouped_cross_validation"
+}
