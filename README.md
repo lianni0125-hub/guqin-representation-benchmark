@@ -104,7 +104,3 @@ Please cite the software release using [`CITATION.cff`](CITATION.cff). The assoc
 
 Author: Anni Li, University College London (UCL), [ORCID 0009-0009-0092-5752](https://orcid.org/0009-0009-0092-5752).
 
-## Release status
-
-Version `0.1.0-rc.1` is a public research release candidate. Its aggregate results and scientific claims are frozen; upstream row-level corpora remain excluded.
-

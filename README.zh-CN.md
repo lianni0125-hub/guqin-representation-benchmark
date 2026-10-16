@@ -103,7 +103,3 @@ node --test tests/gq39_analysis_tables.test.mjs
 引用本软件版本时，请使用 [`CITATION.cff`](CITATION.cff) 中的信息；相关论文正式发表后，还应同时引用论文。
 
 作者：Anni Li，University College London (UCL)，[ORCID 0009-0009-0092-5752](https://orcid.org/0009-0009-0092-5752)。
-
-## 发布状态
-
-`0.1.0-rc.1` 是公开的科研候选发布版。汇总结果和科学论断已经冻结，上游逐行语料仍不包含在本仓库中。
