@@ -2,22 +2,20 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-[GitHub repository](https://github.com/lianni0125-hub/guqin-representation-benchmark)
-
 A provenance-preserving framework for building and evaluating interpretable representations of guqin notation and action sequences.
 
 This repository does **not** redistribute the upstream row-level corpora. It provides source adapters, documented mappings, deterministic piece-grouped evaluation, representation specifications, leakage tests, aggregate reference results, and a local builder workflow for users who lawfully obtain the upstream materials.
 
 ## Scientific scope
 
-The framework tests selected principles of phonological representation—contrast, feature factorization, contextual recoverability, tiering, and representational economy—on guqin notation–action sequences. It does not presuppose that guqin music possesses a phonology equivalent to the phonology of natural language.
+The framework operationalizes and evaluates representation hypotheses motivated by phonological theory—contrast, feature factorization, contextual recoverability, tiering, and representational economy—on guqin notation–action sequences. It does not presuppose that guqin music possesses a phonology equivalent to the phonology of natural language.
 
 The current reference study contains two GQ39 tasks:
 
-- **T1:** six-way performed left-hand pitch-motion prediction (2,303 events);
-- **T2:** score-side right-hand single/multi-note attack prediction (1,712 eligible events).
+- **T1:** six-class prediction of left-hand pitch motion in performed events (2,303 events);
+- **T2:** prediction of score-encoded single- versus multi-note right-hand attacks (1,712 included events).
 
-Evaluation leaves out one complete piece group at a time across ten groups. The registered representations are context-only (R5), atomic (R0), pitch-centred (R1), gesture-centred (R2), flat joint (R3), and multi-tier (R4), with R4M as an association ablation.
+Evaluation leaves out one complete piece group at a time across ten groups. The registered representations are context-only (R5), undecomposed atomic (R0), pitch-centred (R1), gesture-centred (R2), flat joint (R3), and multi-tier (R4), with R4M as an association ablation.
 
 ## What is included
 
@@ -96,11 +94,17 @@ See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the complete workflow and [DATA
 
 ## Reference finding boundary
 
-The frozen study supports sparse gesture factorization as the strongest fit–coverage–cost family for the registered tasks. Prior right-hand direction is independently informative for T2. Explicit cross-tier association terms are not justified. Rare T1 return-motion categories remain unresolved, including after a post-primary merge sensitivity.
+For the registered tasks, the frozen study identifies sparse gesture factorization as the best-supported trade-off among predictive fit, empirical coverage, and representational cost. The direction of the preceding right-hand gesture contributes independent information to T2. Explicit cross-tier association terms do not improve performance enough to justify their added complexity. Rare T1 return-motion categories remain unresolved, including after the post-primary merge sensitivity analysis.
 
-These are exploratory grouped-CV findings over ten piece groups. They do not establish cognitive representations, allophony, underlying forms, or a natural-language-equivalent guqin phonology.
+These are exploratory grouped-cross-validation findings over ten piece groups. They support an external, phonology-informed test of representational organization; they do not establish the cognitive reality of the tested representations or warrant treating guqin structure as equivalent to natural-language phonology.
+
+## Citation
+
+Please cite the software release using [`CITATION.cff`](CITATION.cff). The associated paper should also be cited once it is available.
+
+Author: Anni Li, University College London (UCL), [ORCID 0009-0009-0092-5752](https://orcid.org/0009-0009-0092-5752).
 
 ## Release status
 
-This package is currently a private release candidate. Its scholarly author identity is Anni Li, University College London (UCL), [ORCID 0009-0009-0092-5752](https://orcid.org/0009-0009-0092-5752). Public release remains contingent on the release-readiness validator passing.
+Version `0.1.0-rc.1` is a public research release candidate. Its aggregate results and scientific claims are frozen; upstream row-level corpora remain excluded.
 

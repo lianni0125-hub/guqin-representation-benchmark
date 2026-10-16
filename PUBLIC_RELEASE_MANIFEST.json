@@ -2,7 +2,7 @@
   "release_candidate": "0.1.0-rc.1",
   "generated_at_date": "2026-10-16",
   "release_identity": "builder-based framework; no upstream row-level payload",
-  "file_count_excluding_manifest": 108,
+  "file_count_excluding_manifest": 109,
   "files": [
     {
       "path": ".gitignore",
@@ -361,13 +361,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 5030,
-      "sha256": "ac83a28a252bc79b33c459103b40a81fc7a2644565ac7e3d270ad8af72b1e339"
+      "bytes": 5443,
+      "sha256": "440788cbdde311fb0cc4b616a32ecbdf01f901112a4e6d575f8687afb9a07f47"
     },
     {
       "path": "README.zh-CN.md",
-      "bytes": 4859,
-      "sha256": "ee2e67aabaec71b60cc350e47652f4e33e3c0c511c2c190362577a52f5db9c46"
+      "bytes": 5433,
+      "sha256": "db63571e5baf264a0ef6975b86709e0de36a9da5c65f0120cc81b0f9c667227b"
     },
     {
       "path": "REPRODUCIBILITY.md",
@@ -541,8 +541,13 @@
     },
     {
       "path": "THIRD_PARTY_DATA.md",
-      "bytes": 1782,
-      "sha256": "64a27d9ed936d1473b6fd923d384acdc6f4e0cf056c4cca9f16c5d631e9a7e65"
+      "bytes": 1941,
+      "sha256": "a7dd219cc36f85c89f594c29cb728ca9b8e9392692c7edc259efd36df6d0802d"
+    },
+    {
+      "path": "THIRD_PARTY_DATA.zh-CN.md",
+      "bytes": 2138,
+      "sha256": "ad8da804b40549496d29ba8a6003a9dbd50bfced8b22491ad7fdc8ab1cc7d5c0"
     }
   ]
 }
